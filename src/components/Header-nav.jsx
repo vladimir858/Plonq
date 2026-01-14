@@ -9,17 +9,17 @@ export default function Header() {
               <img src="/Logo.svg" alt="Логотип" />
             </div>
             <nav className="">
-              <Link to="/" className="ml-[124px] hover:text-[#c8bb93]  transition ">
-                Главная
+              <Link to="/" className="ml-[124px] hover:text-[#c8bb93]  font-normal transition ">
+                Продукты
               </Link>
-              <Link to="/about" className="ml-[124px] hover:text-[#c8bb93] transition  ">
-                Обо мне
+              <Link to="/about" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal ">
+               Приложение
               </Link>
-              <Link to="/projects" className="ml-[124px] hover:text-[#c8bb93] transition " >
-                Проекты
+              <Link to="/projects" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal" >
+              Дистрибуция
               </Link>
-              <Link to="/contact" className="ml-[124px] hover:text-[#c8bb93] transition  ">
-                Контакты
+              <Link to="/contact" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal ">
+                Где купить
               </Link>
             </nav>
           </div>
