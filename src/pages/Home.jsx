@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
+    <div className="">
     <div className="min-h-screen bg-[url('/500.png')] bg-cover bg-center pt-[100px]">
      
       <svg width="55" height="17" viewBox="0 0 55 17" fill="none" xmlns="http://www.w3.org/2000/svg" className='ml-[440px] mt-[200px]'>
@@ -23,5 +24,28 @@ export default function Home() {
     </div>
     
     </div>
+    <div className="flex justify-center ">
+      <div className="">
+  <img src="../../public/Home-logo.svg" className='mt-[400px] mb-[61px]'  />
+<div className="w-[402px] h-[88px] text-[32px] mb-[68px]">Электронная сигарета, которая умеет удивлять.</div>
+<div className="flex">
+   <button className="flex  items-center  ">
+      <a href="#" className="mr-[29px]  w-[120px] h-[20px]  text-[var(--color-black)] 
+      flex items-center hover:text-[#c8bb93] transition " >
+Подробнее
+      <img src="../../public/strelka-header.svg" alt="" className="w-[6px] h-[16px] ml-[29px]"  />
+      </a>
+      </button>
+      <div className="hover:text-[#c8bb93] transition">Скоро в продаже</div>
+</div>
+
+      </div>
+<img src="../../public/Phone-home.png" className='mt-[200px]'/>
+
+    </div>
+  
+
+    </div>
+
   );
 }
