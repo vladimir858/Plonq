@@ -36,14 +36,94 @@ export default function Home() {
       <img src="../../public/strelka-header.svg" alt="" className="w-[6px] h-[16px] ml-[29px]"  />
       </a>
       </button>
-      <div className="hover:text-[#c8bb93] transition">Скоро в продаже</div>
+      <div className="text-[#c8bb93] transition">Скоро в продаже</div>
 </div>
 
       </div>
 <img src="../../public/Phone-home.png" className='mt-[200px]'/>
 
     </div>
-  
+    <div className="flex justify-center ">
+
+
+ 
+    <div className="flex">
+      <img src="../../public/img-plo-1.png"  />
+      <div className="mr-[180px]">
+        <img src="../../public/logo_Plonq_400.svg" alt=""  className="mt-[145px] 
+        mb-[45px] "/>
+        <div className="w-[220px] mb-[20px] font-light">
+          Одноразовое устройство Plonq на 400 затяжек
+        </div>
+        <div className=" mb-[45px]">370 ₽</div>
+      <a href='#' className="w-[208px] h-[48px] border-2 font-medium rounded-[100px]  
+    flex items-center justify-center border-[var(--color-dark)]
+    transition duration-300 hover:opacity-[0.7]   ">
+    Где купить
+</a>
+      </div>
+    </div>
+
+
+    <div className="flex">
+      <img src="../../public/img-plo-2.png"  />
+      <div className="">
+        <img src="../../public/logo_Plonq_500.svg" alt=""  className="mt-[145px] 
+        mb-[45px] "/>
+        <div className="w-[220px] mb-[20px] font-light">
+          Одноразовое устройство Plonq на 500 затяжек
+        </div>
+        <div className=" mb-[45px]">430 ₽</div>
+     <a href='#' className="w-[208px] h-[48px] border-2 font-medium rounded-[100px]  
+    flex items-center justify-center border-[var(--color-dark)]
+    transition duration-300 hover:opacity-[0.7]   ">
+    Где купить
+</a>
+      </div>
+    </div>
+
+   </div>
+    <div className="flex justify-center ">
+
+
+ 
+    <div className="flex">
+      <img src="../../public/img-plo-3.png"  />
+      <div className="mr-[180px]">
+        <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
+        mb-[45px] "/>
+        <div className="w-[220px] mb-[20px] font-light">
+          Одноразовое устройство Plonq на 400 затяжек
+        </div>
+        <div className=" mb-[45px]">370 ₽</div>
+      <a href='#' className="w-[208px] h-[48px] border-2 font-medium rounded-[100px]  
+    flex items-center justify-center border-[var(--color-dark)]
+    transition duration-300 hover:opacity-[0.7]   ">
+    Где купить
+</a>
+      </div>
+    </div>
+
+
+    <div className="flex">
+      <img src="../../public/img-plo-4.png"  />
+      <div className="">
+        <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
+        mb-[45px] "/>
+        <div className="w-[220px] mb-[20px] font-light">
+          Одноразовое устройство Plonq на 500 затяжек
+        </div>
+        <div className=" mb-[45px]">430 ₽</div>
+     <a href='#' className="w-[208px] h-[48px] border-2 font-medium rounded-[100px]  
+    flex items-center justify-center border-[var(--color-dark)]
+    transition duration-300 hover:opacity-[0.7]   ">
+    Где купить
+</a>
+      </div>
+    </div>
+
+   </div>
+
 
     </div>
 
