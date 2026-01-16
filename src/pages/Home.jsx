@@ -84,12 +84,9 @@ export default function Home() {
 
    </div>
     <div className="flex justify-center ">
-
-
- 
-    <div className="flex">
+    <div className="flex mr-[120px]">
       <img src="../../public/img-plo-3.png"  />
-      <div className="mr-[180px]">
+      <div className="mr-[60px]">
         <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
         mb-[45px] "/>
         <div className="w-[220px] mb-[20px] font-light">
@@ -104,10 +101,9 @@ export default function Home() {
       </div>
     </div>
 
-
     <div className="flex">
       <img src="../../public/img-plo-4.png"  />
-      <div className="">
+      <div className="mr-[120px]">
         <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
         mb-[45px] "/>
         <div className="w-[220px] mb-[20px] font-light">
