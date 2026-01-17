@@ -10,9 +10,9 @@ export default function Home() {
 </svg>
 <img src="../../public/Head-logo.svg"  className="ml-[var(--mr-500)]" />
 <div className="text-[32px] text-[var(--color-white)] mt-[35px] ml-[var(--mr-500)] w-[400px]  ">Новый стандарт одноразовых е-сигарет</div>
-    <div className="flex mt-[76px]">
+    <div className="flex mt-[76px] pl-[510px]">
     <button className="flex  items-center  ">
-      <a href="#" className="mr-[29px] ml-[var(--mr-500)]  w-[120px] h-[20px] 
+      <a href="#" className="mr-[29px]   w-[120px] h-[20px] 
        text-[var(--color-white)] 
        flex items-center hover:text-[var(--color-gold)] transition-colors duration-300 " > 
 Подробнее
@@ -123,27 +123,45 @@ export default function Home() {
 
    </div>
 
-<div className="flex">
+<div className="flex  
+justify-center">
 
-<div className="gray">
-<div className="flex">
+<div className="bg-[#f9f9f9] w-[688px] h-[465px] mr-[32px] ">
+<div className="flex justify-center">
   <div className="
+ 
   ">
-<div className="">
-  Об электронных сигаретах
+<div className=" text-[23px] mb-[1.8rem] font-medium mt-[135px]">
+  Об электронных <br />сигаретах
 </div>
-<div className="">
+<div className="h-[42px] w-[328px] mb-[3.3rem] ">
   Plonq — электронный испаритель, который преобразует жидкость в пар.
 </div>
     <ButtonDetail />
   </div>
 
-<img src="../../public/leak-1.png" />
+<img src="../../public/leak-1.png" className=' mix-blend-multiply mt-[24px]  '/>
 </div>
 
 </div>
-{/* <div className="">
-</div> */}
+
+<div className="bg-[#f9f9f9] w-[688px] h-[465px]">
+<div className="flex justify-center">
+  <div className="
+  ">
+<div className=" text-[23px] mb-[1.8rem] font-medium mt-[172px]">
+ О приложении
+</div>
+<div className="h-[63px] w-[296px] mb-[2rem] ">
+  Plonq AI создан на основе поведенческой терапии, которая доказала свою эффективность.
+</div>
+    <ButtonDetail />
+  </div>
+
+<img src="../../public/leak-2.png" className=' mix-blend-multiply  mt-[44px] ' />
+</div>
+
+</div>
 </div>
     </div>
 
