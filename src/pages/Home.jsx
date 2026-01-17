@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-
+import ButtonDetail from '../components/button-detail'; 
 export default function Home() {
   return (
     <div className="">
@@ -12,10 +12,18 @@ export default function Home() {
 <div className="text-[32px] text-[var(--color-white)] mt-[35px] ml-[var(--mr-500)] w-[400px]  ">Новый стандарт одноразовых е-сигарет</div>
     <div className="flex mt-[76px]">
     <button className="flex  items-center  ">
-      <a href="#" className="mr-[29px] ml-[var(--mr-500)]  w-[120px] h-[20px]  text-[var(--color-white)] flex items-center " >
+      <a href="#" className="mr-[29px] ml-[var(--mr-500)]  w-[120px] h-[20px] 
+       text-[var(--color-white)] 
+       flex items-center hover:text-[var(--color-gold)] transition-colors duration-300 " > 
 Подробнее
-      <img src="../../public/strelka-header.svg" alt="" className="w-[6px] h-[16px] ml-[29px]"  />
+      <svg viewBox="0 0 4 7" fill="none" xmlns="http://www.w3.org/2000/svg" className=' 
+      w-[6px] h-[16px] ml-[20px] stroke-current'>
+<path d="M0.5 0.5L3.5 3.50003L0.5 6.5"  stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
       </a>
+
+
+
       </button>
     <button className=" "><a href="" className=" w-[208px] 
     h-[48px]  border-2 font-medium rounded-[100px] divide-[var(--color-white)] flex  text-[var(--color-white)]  items-center justify-center ml-[56px]" >
@@ -29,18 +37,12 @@ export default function Home() {
   <img src="../../public/Home-logo.svg" className='mt-[400px] mb-[61px]'  />
 <div className="w-[402px] h-[88px] text-[32px] mb-[68px]">Электронная сигарета, которая умеет удивлять.</div>
 <div className="flex">
-   <button className="flex  items-center  ">
-      <a href="#" className="mr-[29px]  w-[120px] h-[20px]  text-[var(--color-black)] 
-      flex items-center hover:text-[#c8bb93] transition " >
-Подробнее
-      <img src="../../public/strelka-header.svg" alt="" className="w-[6px] h-[16px] ml-[29px]"  />
-      </a>
-      </button>
+      <ButtonDetail />
       <div className="text-[#c8bb93] transition">Скоро в продаже</div>
 </div>
 
       </div>
-<img src="../../public/Phone-home.png" className='mt-[200px]'/>
+<img src="/Phone-home.png" className='mt-[200px]'/>
 
     </div>
     <div className="flex justify-center ">
@@ -48,9 +50,9 @@ export default function Home() {
 
  
     <div className="flex">
-      <img src="../../public/img-plo-1.png"  />
+      <img src="/public/img-plo-1.png"  />
       <div className="mr-[180px]">
-        <img src="../../public/logo_Plonq_400.svg" alt=""  className="mt-[145px] 
+        <img src="/logo_Plonq_400.svg" alt=""  className="mt-[145px] 
         mb-[45px] "/>
         <div className="w-[220px] mb-[20px] font-light">
           Одноразовое устройство Plonq на 400 затяжек
@@ -85,9 +87,9 @@ export default function Home() {
    </div>
     <div className="flex justify-center ">
     <div className="flex mr-[120px]">
-      <img src="../../public/img-plo-3.png"  />
+      <img src="/public/img-plo-3.png"  />
       <div className="mr-[60px]">
-        <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
+        <img src="/public/Plonq_X.svg" alt=""  className="mt-[145px] 
         mb-[45px] "/>
         <div className="w-[220px] mb-[20px] font-light">
           Одноразовое устройство Plonq на 400 затяжек
@@ -98,13 +100,14 @@ export default function Home() {
     transition duration-300 hover:opacity-[0.7]   ">
     Где купить
 </a>
+
       </div>
     </div>
 
     <div className="flex">
-      <img src="../../public/img-plo-4.png"  />
+      <img src="/public/img-plo-4.png"  />
       <div className="mr-[120px]">
-        <img src="../../public/Plonq_X.svg" alt=""  className="mt-[145px] 
+        <img src="/public/Plonq_X.svg" alt=""  className="mt-[145px] 
         mb-[45px] "/>
         <div className="w-[220px] mb-[20px] font-light">
           Одноразовое устройство Plonq на 500 затяжек
@@ -120,7 +123,28 @@ export default function Home() {
 
    </div>
 
+<div className="flex">
 
+<div className="gray">
+<div className="flex">
+  <div className="
+  ">
+<div className="">
+  Об электронных сигаретах
+</div>
+<div className="">
+  Plonq — электронный испаритель, который преобразует жидкость в пар.
+</div>
+    <ButtonDetail />
+  </div>
+
+<img src="../../public/leak-1.png" />
+</div>
+
+</div>
+{/* <div className="">
+</div> */}
+</div>
     </div>
 
   );

@@ -29,4 +29,3 @@ export default function Header() {
   );
 }
 
-      // <div className="absolute inset-0 bg-[url('/500.png')] bg-cover bg-center"></div>
