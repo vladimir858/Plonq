@@ -124,7 +124,7 @@ export default function Home() {
    </div>
 
 <div className="flex  
-justify-center">
+justify-center mt-[140px]">
 
 <div className="bg-[#f9f9f9] w-[688px] h-[465px] mr-[32px] ">
 <div className="flex justify-center">
