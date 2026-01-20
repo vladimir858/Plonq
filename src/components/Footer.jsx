@@ -12,10 +12,14 @@ export default function Footer() {
   </div>
    
   </div>
+  
+  <div className="
+  ">
    <input type="text" /> 
    <button className='button-footer'>Подписаться
     
    </button>
+  </div>
 </footer>
   );
 }
