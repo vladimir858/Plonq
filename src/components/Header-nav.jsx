@@ -13,13 +13,16 @@ export default function Header() {
                font-normal transition  header-nav-link">
                 Продукты
               </Link>
-              <Link to="/about" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal ">
+              <Link to="/about" className="ml-[124px]
+               hover:text-[#c8bb93] transition  font-normal  header-nav-link">
                Приложение
               </Link>
-              <Link to="/projects" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal" >
+              <Link to="/projects" className="ml-[124px] 
+              hover:text-[#c8bb93] transition  font-normal header-nav-link" >
               Дистрибуция
               </Link>
-              <Link to="/contact" className="ml-[124px] hover:text-[#c8bb93] transition  font-normal ">
+              <Link to="/contact" className="ml-[124px] 
+              hover:text-[#c8bb93] transition  font-normal header-nav-link ">
                 Где купить
               </Link>
             </nav>

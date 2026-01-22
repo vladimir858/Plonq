@@ -4,10 +4,13 @@
 
 
 :root {
+  --grey-196: #c4c4c4;
+  --grey-249:#f9f9f9;
   --color-white: #FFF;
   --color-gold: #c8bb93;
-  --color-dark: #1a202c;
+  --color-dark: #000;
   --mr-500:500px;
+  --text-14: 24px ;
 }
 
 @font-face {
