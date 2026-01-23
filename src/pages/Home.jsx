@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="">
-    <div className="min-h-screen bg-[url('/500.png')] bg-cover bg-center pt-[100px]">
+    {/* <div className="min-h-screen bg-[url('/500.png')] bg-cover bg-center pt-[100px]">
      
       <svg width="55" height="17" viewBox="0 0 55 17" fill="none" xmlns="http://www.w3.org/2000/svg" className='ml-[440px] mt-[200px]'>
   <path d="M0 16.8798V0.0480898H1.67907L11.6854 13.5375V0.0480898H13.4326V16.8798H12.0031L1.74715 3.07779V16.8798H0ZM17.9261 16.8798V0.0480898H29.4073V1.77935H19.7186V7.52617H28.3863V9.25743H19.7186V15.1485H29.5208V16.8798H17.9261ZM37.5739 17L31.9015 0.0480898H33.8527L38.3908 14.0665L42.7473 0H44.2222L48.5787 14.0665L53.1167 0.0480898H55L49.3275 17H47.8072L43.4507 3.34229L39.0715 17H37.5739Z" fill="#92E7E4" />
@@ -32,12 +32,14 @@ export default function Home() {
       </a></button>
     </div>
     
-    </div>
-    <div className="flex justify-center ">
+    </div> */}
+    <div className="flex justify-center sm:block ">
       <div className="">
-  <img src="../../public/Home-logo.svg" className='mt-[400px] mb-[61px]'  />
-<div className="w-[402px] h-[88px] text-[32px] mb-[68px]">Электронная сигарета, которая умеет удивлять.</div>
-<div className="flex">
+  <img src="../../public/Home-logo.svg" className='mt-[400px] mb-[61px] 
+  sm:w-[200px] sm:h-[43px] sm:mr-[50%]  sm:ml-[30%] '  />
+<div className="w-[402px] h-[88px] text-[32px] mb-[68px] sm:ml-[17%]  text-center
+">Электронная сигарета, которая умеет удивлять.</div>
+<div className="flex sm:hidden">
       <ButtonDetail />
       <div className="text-[#c8bb93] transition">Скоро в продаже</div>
 </div>
@@ -45,8 +47,12 @@ export default function Home() {
       </div>
 <img src="/Phone-home.png" className='mt-[200px]'/>
 
+<div className="flex sm:mr-[10%]  sm:ml-[30%] ">
+      <ButtonDetail />
+      <div className="text-[#c8bb93] transition">Скоро в продаже</div>
+</div>
     </div>
-    <div className="flex justify-center ">
+    {/* <div className="flex justify-center ">
 
 
  
@@ -122,8 +128,9 @@ export default function Home() {
       </div>
     </div>
 
-   </div>
+   </div> */}
 
+{/* 
 <div className="flex  
 justify-center mt-[140px]">
 
@@ -163,8 +170,8 @@ justify-center mt-[140px]">
 </div>
 
 </div>
-</div>
-   <Footer />
+</div> */}
+   {/* <Footer /> */}
     </div>
   
   );
