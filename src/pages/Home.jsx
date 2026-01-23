@@ -33,21 +33,21 @@ export default function Home() {
     </div>
     
     </div> */}
-    <div className="flex justify-center sm:block ">
+    <div className=" justify-center sm:block 2xl:flex ">
       <div className="">
   <img src="../../public/Home-logo.svg" className='mt-[400px] mb-[61px] 
-  sm:w-[200px] sm:h-[43px] sm:mr-[50%]  sm:ml-[30%] '  />
-<div className="w-[402px] h-[88px] text-[32px] mb-[68px] sm:ml-[17%]  text-center
+  sm:w-[200px] sm:h-[43px] 2xl:w-[280px]  2xl:h-[61px]  mx-auto'  />
+<div className="w-[402px] h-[88px] text-[32px] mx-auto text-center
 ">Электронная сигарета, которая умеет удивлять.</div>
-<div className="flex sm:hidden">
+<div className=" sm:hidden  2xl:flex   2xl:mt-[70px]   ">
       <ButtonDetail />
-      <div className="text-[#c8bb93] transition">Скоро в продаже</div>
+      <div className="text-[#c8bb93] transition mx-auto ">Скоро в продаже</div>
 </div>
 
       </div>
-<img src="/Phone-home.png" className='mt-[200px]'/>
+<img src="/Phone-home.png" className='mt-[200px]  max-w-md sm:mx-auto  2xl:mx-0   2xl;center  '/>
 
-<div className="flex sm:mr-[10%]  sm:ml-[30%] ">
+<div className="flex justify-center  2xl:hidden ">
       <ButtonDetail />
       <div className="text-[#c8bb93] transition">Скоро в продаже</div>
 </div>
