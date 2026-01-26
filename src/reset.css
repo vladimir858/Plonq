@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -86,7 +85,6 @@ button {
   outline: none;
 }
 
-/* Сброс для ссылок внутри кнопок */
 button a {
   text-decoration: none;
   color: inherit;
