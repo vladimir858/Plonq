@@ -33,9 +33,8 @@ export default function Footer() {
 <div className=" text-normal subtitle-footer ">for IOS </div>
 </div>
 </a>
-        <a href="#" className='flex mt-[22px]'>
- <img src="/public/Android.svg"  className='
- mr-[20px] ' />
+        <a href="#" className='flex img-google-wrap  '>
+ <img src="/public/Android.svg"  className=' img-google ' />
  
 <div className="">
 <div className=" text-normal  ">Coming soon </div>

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="">
-    <div className="min-h-screen bg-[url('/500.png')] bg-cover bg-center pt-[100px] header-home">
+    <div className=" header-home">
      
       <svg width="55" height="17" viewBox="0 0 55 17" fill="none" xmlns="http://www.w3.org/2000/svg" 
       className='strelka-home'>
@@ -16,11 +16,9 @@ export default function Home() {
   Новый стандарт одноразовых е-сигарет</div>
     <div className="flex  home__buttom-wrap">
     <button className="flex    home__buttom ">
-      <a href="#" className="  home__buttom-link
-       flex   " > 
+      <a href="#" className="  home__buttom-link flex   " > 
 Подробнее
-      <svg viewBox="0 0 4 7" fill="none" xmlns="http://www.w3.org/2000/svg" className=' 
-      w-[6px] h-[16px] ml-[20px] stroke-current'>
+      <svg viewBox="0 0 4 7" fill="none" xmlns="http://www.w3.org/2000/svg" className=' svg-home'>
 <path d="M0.5 0.5L3.5 3.50003L0.5 6.5"  stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
       </a>
@@ -29,7 +27,7 @@ export default function Home() {
 Где купить
       </a></button>
     </div>
-    
+
     </div>
 
 
@@ -117,44 +115,38 @@ export default function Home() {
    </div> 
 
 
-<div className="flex  
-justify-center mt-[140px]">
-
-<div className="bg-[#f9f9f9] w-[688px] h-[465px] mr-[32px] ">
-<div className="flex justify-center">
-  <div className="">
-<div className=" text-[23px] mb-[1.8rem] font-medium mt-[135px]">
-  Об электронных <br />сигаретах
-</div>
-<div className="h-[42px] w-[328px] mb-[3.3rem] ">
-  Plonq — электронный испаритель, который преобразует жидкость в пар.
-</div>
-    <ButtonDetail />
+<div class="flex-container">
+  <div class="card">
+    <div class="card-content">
+      <div class="card-text">
+        <div class="card-title">
+          Об электронных <br />сигаретах
+        </div>
+        <div class="card-description">
+          Plonq — электронный испаритель, который преобразует жидкость в пар.
+        </div>
+        <ButtonDetail />
+      </div>
+      <img src="../../public/leak-1.png" class="card-image" />
+    </div>
   </div>
 
-<img src="../../public/leak-1.png" className=' mix-blend-multiply mt-[24px]  '/>
-</div>
-
-</div>
-
-<div className="bg-[#f9f9f9] w-[688px] h-[465px]">
-<div className="flex justify-center">
-  <div className="
-  ">
-<div className=" text-[23px] mb-[1.8rem] font-medium mt-[172px]">
- О приложении
-</div>
-<div className="h-[63px] w-[296px] mb-[2rem] ">
-  Plonq AI создан на основе поведенческой терапии, которая доказала свою эффективность.
-</div>
-    <ButtonDetail />
+  <div class="card">
+    <div class="card-content">
+      <div class="card-text">
+        <div class="card-title">
+          О приложении
+        </div>
+        <div class="card-description">
+          Plonq AI создан на основе поведенческой терапии, которая доказала свою эффективность.
+        </div>
+        <ButtonDetail />
+      </div>
+      <img src="../../public/leak-2.png" class="card-image" />
+    </div>
   </div>
-
-<img src="../../public/leak-2.png" className=' mix-blend-multiply  mt-[44px] ' />
 </div>
 
-</div>
-</div> 
    <Footer />
     </div>
   
