@@ -2,24 +2,18 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-<footer className="mt-[265px]  mx-auto pl-[125px] pr-[125px] footer ">
+<footer className="    footer ">
   <a href="#" className=" ">
     <img src="/public/Plonq_logo.svg"   />
   </a>
-  <div className="flex justify-center ">
-
-
-
+  <div className="wrap-footer ">
   <div className=" ">
- <div className="font-normal text-sm ">
+ <div className="title-footer ">
     Подпишитесь на наши обновления
   </div>
-  <div className="flex  mt-[30px]  justify-center  ">
-   <input type="text" className='w-[424px] h-[40px]
-    rounded-[5px] bg-[var(--grey-249)] pl-[5px] mr-[24px]' /> 
-   <button className='text-[var(--color-white)] 
-   rounded-[5px] bg-[var(--color-dark)] w-[152px] 
-   h-[40px]'>Подписаться
+  <div className="footer-flex-wrap ">
+   <input type="text" className='footer-input' /> 
+   <button className='footer-button-title'>Подписаться
     
    </button>
   </div>
@@ -29,15 +23,14 @@ export default function Footer() {
   </div>
   
 
-  <div className="flex mt-[55px]">
-    
+  <div className="footer-wrap-text">
     <div className="">
           <a href="#" className='flex'>
- <img src="/public/Apple.svg"  className='mr-[20px]  ' />
+ <img src="/public/Apple.svg"  className='img-apple' />
  
 <div className="">
-<div className=" text-sm font-normal ">Coming soon </div>
-<div className=" text-sm  font-normal text-[#aaa]">for IOS </div>
+<div className=" text-normal ">Coming soon </div>
+<div className=" text-normal subtitle-footer ">for IOS </div>
 </div>
 </a>
         <a href="#" className='flex mt-[22px]'>
@@ -45,8 +38,8 @@ export default function Footer() {
  mr-[20px] ' />
  
 <div className="">
-<div className=" text-sm font-normal ">Coming soon </div>
-<div className=" text-sm  font-normal text-[#aaa]">for
+<div className=" text-normal  ">Coming soon </div>
+<div className=" text-normal subtitle-footer">for
    Android </div>
    
 </div>
@@ -55,28 +48,28 @@ export default function Footer() {
     </div>
 
 
-<div className="  ml-[121px] mr-[121px] ">
-<div className=" font-normal text-sm mb-[23px]  ">Продукты</div>
-  <div className=" font-normal text-sm text-[var(--grey-196)] mb-[17px]">Plonq 400</div>
-  <div className=" font-normal text-sm text-[var(--grey-196)] mb-[17px]">Plonq 500</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Plonq X</div>
+<div className=" footer-colums__wrap ">
+<div className=" text-normal  footer-colums__headtitle  ">Продукты</div>
+  <div className=" text-normal footer-colums__subtitle">Plonq 400</div>
+  <div className=" text-normal footer-colums__subtitle">Plonq 500</div>
+  <div className="text-normal footer-colums__subtitle">Plonq X</div>
 </div>
-<div className="  mr-[80px]">
-<div className=" font-normal text-sm mb-[23px]">Технологии</div>
-  <div className=" font-normal text-sm text-[var(--grey-196)] mb-[17px]">О приложении</div>
-  <div className=" font-normal text-sm text-[var(--grey-196)] mb-[17px]">Об электронных сигаретах</div>
+<div className="  footer-colums-mr80">
+<div className=" text-normal  footer-colums__headtitle">Технологии</div>
+  <div className="text-normal  footer-colums__subtitle">О приложении</div>
+  <div className="text-normal  footer-colums__subtitle">Об электронных сигаретах</div>
 </div>
-<div className="  mr-[121px]">
-<div className= "font-normal text-sm mb-[23px]">Поддержка</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Связаться с нами</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Условия возврата</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Политика конфиденциальности</div>
+<div className=" footer-colums-mr121 ">
+<div className= "font-normal footer-colums__headtitle">Поддержка</div>
+  <div className="text-normal footer-colums__subtitle">Связаться с нами</div>
+  <div className="text-normal footer-colums__subtitle">Условия возврата</div>
+  <div className="text-normal footer-colums__subtitle">Политика конфиденциальности</div>
 </div>
-<div className="  mr-[121px]">
-<div className="font-normal text-sm mb-[23px]">Прочее</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Точки продаж</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">О Компании</div>
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px]">Оптовым покупателям</div>
+<div className=" footer-colums-mr121">
+<div className="text-normal   footer-colums__headtitle">Прочее</div>
+  <div className="text-normal footer-colums__subtitle">Точки продаж</div>
+  <div className="text-normal footer-colums__subtitle">О Компании</div>
+  <div className="text-normal footer-colums__subtitle">Оптовым покупателям</div>
 </div>
 
 <div className="">
@@ -89,12 +82,12 @@ export default function Footer() {
 </a>
 
 <div className="">
-  <div className="font-normal text-sm text-[var(--grey-196)] mt-[50px]  text-left w-[256px]">© 2021 PLONQ LLC 40900
+  <div className="  text-normal copyrait">© 2021 PLONQ LLC 40900
    Woodward Avenue Suite 111 Bloomfield Hills MI 48304 USA</div>
 </div> </div>
   </div>
 
-  <div className="font-normal text-sm text-[var(--grey-196)] mb-[17px] text-center max-w-2xl mx-auto mt-[90px] ">
+  <div className="text-normal  warning     ">
 ПРОДАЖА НЕСОВЕРШЕННОЛЕТНИМ ЗАПРЕЩЕНА. Сайт используется исключительно в целях информирования действующих потребителей продукции PLONQ Защищено выпущенными и/или находящимися на одобрении международными патентами..
   </div>
 
