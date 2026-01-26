@@ -46,3 +46,6 @@ color: var(--color-gold);
 .header-nav__link:hover{
 color: #c8bb93;
 }
+footer{
+    margin-top: 265px;
+}

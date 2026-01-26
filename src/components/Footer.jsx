@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-<footer className="mt-[265px]  mx-auto pl-[125px] pr-[125px] ">
+<footer className="mt-[265px]  mx-auto pl-[125px] pr-[125px] footer ">
   <a href="#" className=" ">
     <img src="/public/Plonq_logo.svg"   />
   </a>
