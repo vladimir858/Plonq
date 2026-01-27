@@ -6,6 +6,15 @@
     font-size: 14px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
 .flex{
     display: flex;
 }
@@ -13,7 +22,6 @@
 
 .strelka-home{
     margin-top: 200px;
-    margin-left: 440px;
 }
 .logo-home{
   margin-top: 230px;
@@ -22,7 +30,7 @@
     font-size: 32px;
     color: var(--color-white);
     margin-top: 35px;
-    margin-left: 500px;
+
     width: 400px;
 }
 .link-detail{
@@ -75,9 +83,7 @@ color: #c8bb93;
 }
 .footer{
     margin-top: 265px;
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-top: 265px;
+
 }
 .wrap-footer{
     justify-content: center;
@@ -163,7 +169,7 @@ margin-top: 90px;
 
 .home__buttom-wrap{
     margin-top: 76px;
-    padding-left: 510px;
+ 
 
 }
 .home__buttom{
