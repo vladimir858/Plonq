@@ -1,6 +1,6 @@
-@import url('responsive/desktop.css');
-@import url('responsive/mobile.css');
- 
+/* *{
+  border: 3px red solid !important;
+} */
 .text-normal{
     font-weight: 400;
     font-size: 14px;
@@ -21,9 +21,13 @@
 
 
 .strelka-home{
-    margin-top: 200px;
+  width: 55px;
+  height: 17px;
+    margin-bottom: 60px;
 }
 .logo-home{
+  height: 54px;
+  width: 334px;
   margin-top: 230px;
 }
 .home-subhead{
@@ -31,7 +35,7 @@
     color: var(--color-white);
     margin-top: 35px;
 
-    width: 400px;
+
 }
 .link-detail{
 display: flex;
@@ -185,14 +189,13 @@ margin-top: 90px;
 }
 
 
-
 .home__buttom-link:hover{
 color: var(--color-gold);
 }
 .link-buy{
     width: 208px;
     height: 48px;
-      border: 3px solid var(--color-white); 
+      border: 2px solid var(--color-white); 
     font-weight: 500;
     justify-content: center;
     align-items: center;
@@ -367,3 +370,206 @@ opacity: .7;
   background-repeat: no-repeat;
 }
 
+.burger {
+   margin-right: auto;
+  display: none; /* По умолчанию скрыт на десктопе */
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+  padding: 5px;
+}
+
+/* Три линии бургера */
+.burger__line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  left: 8px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Расположение линий */
+.burger__line--1 { top: 12px; }
+.burger__line--2 { top: 19px; }
+.burger__line--3 { top: 26px; }
+
+/* Анимация в крестик при классе .active */
+.burger.active .burger__line--1 {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.burger.active .burger__line--2 {
+  opacity: 0;
+}
+
+.burger.active .burger__line--3 {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Альтернативная анимация - более плавная */
+.burger.active .burger__line--1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active .burger__line--3 {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+
+@media  (max-width:1700px) {
+    .logo{
+        margin-right: 215px;
+    }
+    .header-wrap{
+        padding-left: 100px;
+    }
+}
+@media  (max-width:1300px) {
+    .logo{
+        margin-right: 45px;
+    }
+        .header-wrap {
+        padding-left: 50px;
+    }
+    .header-nav__link {
+    margin-left: 80px;
+}
+}
+@media  (max-width:1020px) {
+.header-nav__link{
+    display: none;
+}
+.burger{
+    display: block;
+    margin-left: auto; 
+}
+
+  .burger-btn {
+    display: flex;
+  }
+
+.header-nav{
+  margin-left: 700px;
+}
+    .logo {
+      margin-right: 0;
+    }
+
+}
+@media  (max-width:970px) {
+
+.home__buttom-link{
+    color:  #264f53;
+    margin-right: 29px;
+    width: 120px;
+    height: 20px;
+    transition: .5s;
+    align-items: center;
+}
+
+
+.link-buy{
+width: 144px;
+height: 38px;
+
+    color: #264f53;
+    border-color: #264f53;
+}
+.header-home{
+    min-height: 100vh;
+  padding-top: 100px;
+  background-color: #f5f5f5; 
+  background-image: url('../public/500m.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logo-home{
+  margin-top: 0;
+  width: 219px;
+  height: 35px;
+}
+
+.strelka-home {
+    width: 33px;
+  height: 9px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.home-subhead{
+  display: flex;
+
+  text-align: center;
+  font-size: 25px;
+}
+
+    .home__buttom-wrap {
+      justify-content: center;
+        margin-top: 720px;
+    }
+
+    .header-home-wrap{
+      margin-left: 30%;
+    }
+ 
+}
+@media  (max-width:900px) {
+.header-nav{
+  margin-left: 500px;
+}
+
+}
+@media  (max-width:800px) {
+.strelka-home{
+  margin-left: 0;
+}
+}
+@media  (max-width:700px) {
+.header-home-wrap {
+        margin-left: 30%;
+    }
+.header-nav{
+  margin-left: 400px;
+}
+
+}
+@media  (max-width:600px) {
+.header-nav{
+  margin-left: 300px;
+}
+}
+@media  (max-width:500px) {
+.header-nav{
+  margin-left: 200px;
+}
+    .header-home-wrap {
+        margin-left: 15%;
+    }
+        .header-wrap {
+       padding-left: 25%;
+    }
+     .home-subhead {
+      font-size: 20px;
+     }
+     .logo-home{
+width: 170px;
+        height: 25px;
+     }
+     .home__buttom-link{
+      margin-right: 0;
+     }
+}
+@media  (max-width:400px) {
+  .header-home{
+    background-image: url(/public/500mb.png);
+  }
+.header-nav{
+  margin-left: 100px;
+}
+}

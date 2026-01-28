@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
 <footer className="    footer ">
-  <div className="container">
+  {/* <div className="container">
 
 
   <a href="#" className=" ">
@@ -92,7 +92,7 @@ export default function Footer() {
   <div className="text-normal  warning     ">
 ПРОДАЖА НЕСОВЕРШЕННОЛЕТНИМ ЗАПРЕЩЕНА. Сайт используется исключительно в целях информирования действующих потребителей продукции PLONQ Защищено выпущенными и/или находящимися на одобрении международными патентами..
   </div>
-  </div>
+  </div> */}
 </footer>
   );
 }
