@@ -42,27 +42,32 @@ export default function Home() {
   </div>
     </div>
 
-
-
-
-{/* 
     <div className=" flex  main-detail  ">
       <div className="">
+        <div className="wrap-main-logo">
   <img src="../../public/Home-logo.svg" className='main-logo'  />
-<div className="main-head ">Электронная сигарета, которая умеет удивлять.</div>
+        </div>
+<div className="main-head ">Электронная сигарета, <br /> которая умеет удивлять.</div>
 <div className=" flex main-btn-wrap    ">
       <ButtonDetail />
       <div className="main__title">Скоро в продаже</div>
 </div>
       </div>
+    
+      <div className=" main-img-wrap">
 <img src="/Phone-home.png" className='   main-img '/>
+      </div>
 
 <div className="flex  button-detail-mob ">
       <ButtonDetail />
       <div className="detail-mob-text">Скоро в продаже</div>
 </div>
+<div className="flex  button-detail-mob main-btn-wrap--block ">
+      <ButtonDetail />
+      <div className="detail-mob-text">Скоро в продаже</div>
+</div>
     </div>
-    
+    {/* 
     <div className="flex wrap-product ">
     <div className="flex product-1">
       <img src="/public/img-plo-1.png"  />
