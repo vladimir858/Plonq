@@ -476,7 +476,7 @@ opacity: .7;
 
 .burger {
    margin-right: auto;
-  display: none; /* По умолчанию скрыт на десктопе */
+  display: none; 
   width: 40px;
   height: 40px;
   background: none;
@@ -487,43 +487,50 @@ opacity: .7;
   padding: 5px;
 }
 
-/* Три линии бургера */
+
 .burger__line {
   display: block;
-  width: 24px;
+  width: 22px;
   height: 2px;
   background: #333;
   position: absolute;
   left: 8px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
-
-/* Расположение линий */
 .burger__line--1 { top: 12px; }
 .burger__line--2 { top: 19px; }
-.burger__line--3 { top: 26px; }
+.burger__line--3 { top: 26px; left: 19px;
+width: 11px;}
 
-/* Анимация в крестик при классе .active */
-.burger.active .burger__line--1 {
-  transform: translateY(7px) rotate(45deg);
+
+
+.burger--active .burger__line--1 {
+  transform: rotate(45deg) translate(5px, 5px);
 }
+
+.burger--active .burger__line--3 {
+  width: 22px;
+      top: 28px;
+    left: 7px;
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+
+
+
+
+
 
 .burger.active .burger__line--2 {
   opacity: 0;
 }
 
-.burger.active .burger__line--3 {
-  transform: translateY(-7px) rotate(-45deg);
+
+.burger--active .burger__line--2{
+  opacity: 0;
 }
 
-/* Альтернативная анимация - более плавная */
-.burger.active .burger__line--1 {
-  transform: rotate(45deg) translate(5px, 5px);
-}
 
-.burger.active .burger__line--3 {
-  transform: rotate(-45deg) translate(7px, -6px);
-}
 
 
 @media  (max-width:1700px) {
@@ -937,3 +944,12 @@ width: 170px;
   margin-left: 100px;
 }
 }
+
+
+
+
+
+/* Анимация для меню */
+
+
+

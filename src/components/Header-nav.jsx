@@ -1,8 +1,22 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // если используете React Router
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    // Блокируем прокрутку body при открытом меню
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+
+    // Очистка при размонтировании компонента
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isMenuOpen]); // Эффект срабатывает при изменении isMenuOpen
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -78,4 +92,3 @@ export default function Header() {
     </header>
   );
 }
-

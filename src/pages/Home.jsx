@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="">
-    {/* <div className="header-home">
+    <div className="header-home">
       <div className="container">
 <div className="header-home-wrap">
       <svg  viewBox="0 0 55 17" fill="none" xmlns="http://www.w3.org/2000/svg" 
@@ -37,7 +37,7 @@ export default function Home() {
     </div>
 
   </div>
-    </div> */}
+    </div>
 
     <section className=" main-detail  ">
       <div className="">
