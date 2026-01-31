@@ -4,12 +4,9 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="">
-    <div className="header-home">
+    {/* <div className="header-home">
       <div className="container">
 <div className="header-home-wrap">
-
-
-    
       <svg  viewBox="0 0 55 17" fill="none" xmlns="http://www.w3.org/2000/svg" 
       className='strelka-home'>
   <path d="M0 16.8798V0.0480898H1.67907L11.6854 13.5375V0.0480898H13.4326V16.8798H12.0031L1.74715 3.07779V16.8798H0ZM17.9261 16.8798V0.0480898H29.4073V1.77935H19.7186V7.52617H28.3863V9.25743H19.7186V15.1485H29.5208V16.8798H17.9261ZM37.5739 17L31.9015 0.0480898H33.8527L38.3908 14.0665L42.7473 0H44.2222L48.5787 14.0665L53.1167 0.0480898H55L49.3275 17H47.8072L43.4507 3.34229L39.0715 17H37.5739Z" fill="#92E7E4" />
@@ -40,9 +37,9 @@ export default function Home() {
     </div>
 
   </div>
-    </div>
+    </div> */}
 
-    <div className=" main-detail  ">
+    <section className=" main-detail  ">
       <div className="">
         <div className="wrap-main-logo">
   <img src="../../public/Home-logo.svg" className='main-logo'  />
@@ -66,82 +63,100 @@ export default function Home() {
       <ButtonDetail />
       <div className="detail-mob-text">Скоро в продаже</div>
 </div>
-    </div>
+    </section>
+<section className="product">
+<div className="product-items">
 
-    {/* <div className=" wrap-product ">
-    <div className=" product-1">
+    <div className=" wrap-product ">
+    <div className=" contain-product-1">
       <div className="img-plo-wrap">
       <img src="/public/img-plo-1.png" className='img-plo'  />
       </div>
       <div className=" contain-product">
         <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
-        <div className="  product-title  ">
+        <div className="  product-title-1  ">
           Одноразовое устройство  Plonq на 400 затяжек
         </div>
         <div className=" product-cost">370 ₽</div>
+
       <a href='#' className="product-link  ">
     Где купить
 </a>
       </div>
     </div>
 
+   </div>
 
-    <div className=" wrap-product-2">
-      <div className="img-plo-wrap">
-      <img src="/public/img-plo-2.png" className='img-plo'  />
+    <div className=" wrap-product ">
+    <div className=" contain-product-2">
+      <div className="img-plo-wrap-2">
+      <img src="/public/img-plo-2.png" className='img-plo-2'  />
       </div>
-      <div className="">
-        <img src="../../public/logo_Plonq_500.svg" alt=""  className="logo-400 "/>
-        <div className="product-title ">
-          Одноразовое устройство <br /> Plonq на 500 затяжек
+      <div className=" contain-product">
+        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <div className="  product-title-2  ">
+          Одноразовое устройство  Plonq на 400 затяжек
         </div>
         <div className=" product-cost">430 ₽</div>
-    <a href='#' className=" product-link  ">
+      <a href='#' className="product-link  ">
     Где купить
 </a>
       </div>
     </div>
 
    </div>
+
+
+
+</div>
+
+<div className="product-items">
+
     <div className=" wrap-product ">
-    <div className=" contain-product-1">
-          <div className="img-plo-wrap">
-      <img src="/public/img-plo-3.png" className='img-plo'  />
+    <div className=" contain-product-3">
+      <div className="img-plo-wrap-3">
+      <img src="/public/img-plo-3.png" className='img-plo-3'  />
       </div>
-      <div className="contain-product-2">
-        <img src="/public/Plonq_X.svg" alt=""  className="  img-product "/>
-          <div className="product-title ">
-       Стартовый набор Plonq X
+      <div className=" contain-product">
+        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <div className="  product-title  ">
+          Стартовый набор <br />Plonq X
         </div>
-       <div className=" product-cost">430 ₽</div>
-    <a href='#' className=" product-link  ">
+        <div className=" product-cost">370 ₽</div>
+        <button className="product-button">
+      <a href='#' className="product-link  ">
     Где купить
 </a>
-
+        </button>
       </div>
     </div>
 
- 
- 
-          <div className=" contain-product-1">
-            <div className="img-plo-wrap">
+   </div>
+
+    <div className=" wrap-product ">
+    <div className=" contain-product-4">
+      <div className="img-plo-wrap-4">
       <img src="/public/img-plo-4.png" className='img-plo'  />
       </div>
-      <div className="contain-product-2">
-        <img src="/public/Plonq_X.svg" alt=""  className=" img-product "/>
-      <div className="product-title ">
-        Два сменных картриджа <br /> для устройства Plonq X
+      <div className=" contain-product">
+        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <div className="  product-title-4  ">
+         Два сменных картриджа для устройства Plonq X
         </div>
-       <div className=" product-cost">430 ₽</div>
-    <a href='#' className=" product-link  ">
+        <div className=" product-cost">770 ₽</div>
+      <a href='#' className="product-link  ">
     Где купить
 </a>
       </div>
     </div>
-  </div>  */}
- 
 
-{/* <div class="flex-container">
+   </div>
+
+
+
+</div>
+</section>
+<div class="flex-container">
   <div class="card">
     <div class="card-content">
       <div class="card-text">
@@ -171,7 +186,7 @@ export default function Home() {
       <img src="../../public/leak-2.png" class="card-image-t" />
     </div>
   </div>
-</div> */}
+</div>
 
     {/* <Footer />   */}
     </div>
