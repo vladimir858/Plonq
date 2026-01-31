@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 export default function Home() {
   return (
     <div className="">
-    <div className=" header-home">
+    <div className="header-home">
       <div className="container">
 <div className="header-home-wrap">
 
@@ -141,7 +141,7 @@ export default function Home() {
   </div>  */}
  
 
-<div class="flex-container">
+{/* <div class="flex-container">
   <div class="card">
     <div class="card-content">
       <div class="card-text">
@@ -171,9 +171,9 @@ export default function Home() {
       <img src="../../public/leak-2.png" class="card-image-t" />
     </div>
   </div>
-</div>
+</div> */}
 
-   {/* <Footer />  */}
+    {/* <Footer />   */}
     </div>
   
   );

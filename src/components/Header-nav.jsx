@@ -1,40 +1,138 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header">
-        <div className="header-wrap ">
-          <div className="wrap">
-            <a className="logo" href='#'>
-              <img src="/Logo.svg" alt="Логотип" />
-            </a>
-            <nav className="header-nav">
-              <Link to="/" className="header-nav__link ">
+      <div className="header-wrap ">
+        <div className="wrap">
+          <a className="logo" href='#'>
+            <img src="/Logo.svg" alt="Логотип" />
+          </a>
+          <nav className="header-nav">
+            <Link to="/" className="header-nav__link">
+              Продукты
+            </Link>
+            <Link to="/about" className="header-nav__link">
+              Приложение
+            </Link>
+            <Link to="/projects" className="header-nav__link">
+              Дистрибуция
+            </Link>
+            <Link to="/contact" className="header-nav__link">
+              Где купить
+            </Link>
+            
+            {/* Кнопка бургер-меню */}
+            <button 
+              className={`burger ${isMenuOpen ? 'burger--active' : ''}`} 
+              aria-label={isMenuOpen ? "Закрыть меню" : "Открыть меню"}
+              aria-expanded={isMenuOpen}
+              onClick={toggleMenu}
+            >
+              <span className="burger__line burger__line--1"></span>
+              <span className="burger__line burger__line--2"></span>
+              <span className="burger__line burger__line--3"></span>
+            </button>
+          </nav>
+        </div>
+      </div>
+      
+      {/* Бургер-меню */}
+      <div className={`wrap-header-nav ${isMenuOpen ? 'wrap-header-nav--active' : ''}`}>
+        <nav className='header-nav-burger'>
+          <ul className="header-item-burger">
+            <li>
+              <Link to="/" className="header-list-burger" onClick={closeMenu}>
                 Продукты
               </Link>
-              <Link to="/about" className="  header-nav__link">
-               Приложение
+            </li>
+            <li>
+              <Link to="/about" className="header-list-burger" onClick={closeMenu}>
+                Приложение
               </Link>
-              <Link to="/projects" className=" header-nav__link" >
-              Дистрибуция
+            </li>
+            <li>
+              <Link to="/projects" className="header-list-burger" onClick={closeMenu}>
+                Дистрибуция
               </Link>
-              <Link to="/contact" className=" header-nav__link ">
+            </li>
+            <li>
+              <Link to="/contact" className="header-list-burger" onClick={closeMenu}>
                 Где купить
               </Link>
-  <button class="burger" aria-label="Открыть меню" aria-expanded="false">
-    <span class="burger__line burger__line--1"></span>
-    <span class="burger__line burger__line--2"></span>
-    <span class="burger__line burger__line--3"></span>
-  </button>
-    <nav class="nav" id="main-nav">
- 
-  </nav>
-            </nav>
-
-          </div>
-        </div>
-
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }
+
+
+// import { Link } from 'react-router-dom';
+
+// export default function Header() {
+//   return (
+//     <header className="header">
+//         <div className="header-wrap ">
+//           <div className="wrap">
+//             <a className="logo" href='#'>
+//               <img src="/Logo.svg" alt="Логотип" />
+//             </a>
+//             <nav className="header-nav">
+//               <Link to="/" className="header-nav__link ">
+//                 Продукты
+//               </Link>
+//               <Link to="/about" className="  header-nav__link">
+//                Приложение
+//               </Link>
+//               <Link to="/projects" className=" header-nav__link" >
+//               Дистрибуция
+//               </Link>
+//               <Link to="/contact" className=" header-nav__link ">
+//                 Где купить
+//               </Link>
+//   <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+//     <span class="burger__line burger__line--1"></span>
+//     <span class="burger__line burger__line--2"></span>
+//     <span class="burger__line burger__line--3"></span>
+//   </button>
+  
+//             </nav>
+
+//           </div>
+//         </div>
+// <div className="wrap-header-nav">
+//   <nav className='header-nav-burger'>
+//     <ul className="header-item-burger">
+//        <Link to="/" className="header-list-burger ">
+//                 Продукты
+//               </Link>
+//               <Link to="/about" className="  header-list-burger">
+//                Приложение
+//               </Link>
+//               <Link to="/projects" className=" header-list-burger" >
+//               Дистрибуция
+//               </Link>
+//               <Link to="/contact" className=" header-list-burger ">
+//                 Где купить
+//               </Link>
+
+//     </ul>
+//   </nav>
+// </div>
+//     </header>
+//   );
+// }
 
