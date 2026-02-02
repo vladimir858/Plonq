@@ -168,6 +168,25 @@ color: #c8bb93;
   display: none;
 }
 
+.applications-link {
+  display: flex;
+  align-items: center;
+ 
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #333;
+}
+
+.applications-link:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
 
 .img-apple{
 margin-right: 20px;
@@ -184,30 +203,56 @@ margin-right: 20px;
 }
 
 .applications-wraper-1{
-  margin-top: 55px;
+
   margin-bottom: 30px;
 }
 .applications-svg-wrap{
   margin-right: 20px;
 }
-
+.footer-aplik-wrap{
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+}
 .footer-colums__wrap{
     /* margin-left: 121px;
     margin-right: 121px; */
+}
+.social-wrap{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.footer-social-title{
+  text-align: right;
+  color: var(--grey-196);
+}
+
+.footer-logo{
+  margin-left: 20px;
+}
+.footer-columns{
+  margin-left: 210px;
+ display: grid;
+ gap: 60px;
+    grid-template-columns: 100px 130px 201px 220px;
+  grid-template-rows: 200px; 
+
+}
+
+.warning{
+  line-height: 162%;
 }
 .footer-colums__headtitle{
 margin-bottom: 23px;
 }
 .footer-colums__subtitle{
+  line-height: 162%;
     margin-bottom: 17px;
 color: var(--grey-196);
 }
-.footer-colums-mr80{
-    margin-right: 80px;
-}
-.footer-colums-mr121{
-    margin-right: 121px;
-}
+
 
 .copyrait{
     color: var(--grey-196);
@@ -546,7 +591,9 @@ width: 11px;}
     justify-content: center;
 }
 .footer-applications{
-  display: grid;
+
+  /* margin-right: 210px; */
+
 }
 
 .input-button{
@@ -565,6 +612,7 @@ color: var(--color-white);
   
 }
 .applications-subtitle{
+white-space: nowrap;
   margin-top: 5px;
   color: var(--grey-196);
 }
@@ -580,22 +628,75 @@ display: flex;
         padding-left: 100px;
     }
 }
+
 @media  (max-width:1400px) {
 
-  .footer-colums-mr80{
-    margin-right: 45px;
+
+
+  .footer-columns {
+    margin-left: 100px;
   }
-   .footer-colums-mr121 {
-    margin-right: 45px;
-   }
-   .footer-colums__wrap{
-    margin-left: 60px;
-    margin-right: 60px;
-   }
+
+
 }
 @media  (max-width:1300px) {
-  .contain-product-1{
 
+.footer-aplik-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 колонки */
+  grid-template-rows: auto 100px;  
+}
+
+
+.footer-columns {
+  grid-column: 1 / -1; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+
+.footer-applications {
+  margin-top: 60px;
+  margin-left: 100px;
+  grid-column: 1; 
+  grid-row: 2;  
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+.footer-social-title{
+  width: 234px;
+}
+.applications-link  {
+  margin-right: 32px;
+}
+
+.footer-social {
+  margin-top: 60px;
+  grid-column: 2; 
+  grid-row: 2;  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+  .footer-social{
+    padding-left: 30px;
+  }
+  .footer-columns {
+grid-template-columns: 80px 125px 160px 170px;
+  }
+
+
+  .contain-product-1{
   margin-left: 0px;
  
 }
@@ -652,6 +753,7 @@ display: flex;
     margin-left: 80px;
 }
 }
+
 @media  (max-width:1020px) {
 
 
@@ -676,7 +778,69 @@ display: flex;
  
 
 }
-@media  (max-width:970px) {
+@media  (max-width:971px) {
+.footer-columns{
+  margin-left: 0;
+}
+
+.footer-columns{
+  gap: 20px;
+  grid-template-rows:200px;
+}
+  .footer-logo{
+    display: none;
+  }
+
+
+.footer-columns {
+  grid-column: 1 / -1; 
+  grid-row: 1; 
+  
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.footer-columns > *:first-child {
+
+}
+
+.footer-columns > *:nth-child(2) {
+ 
+}
+
+
+.footer-applications {
+  grid-column: 1; 
+  grid-row: 2; 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки для приложений */
+  gap: 20px;
+}
+
+/* ===== ПРАВЫЙ НИЖНИЙ БЛОК ===== */
+.footer-social {
+  grid-column: 2; /* Вторая колонка основной сетки */
+  grid-row: 2; /* Вторая строка основной сетки */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+.footer-colums__headtitle {
+  font-size: 14px;
+}
+.footer-colums__subtitle{
+  font-size: 12px;
+}
 
 .main-logo{
   margin-top: 150px;
@@ -770,15 +934,86 @@ margin-top: 40px;
 }
 }
 @media  (max-width:900px) {
+.footer-input{
+
+  border-radius: 4px;
+width: 264px;
+height: 30px;
+}
+.input-button{
+font-weight: 500;
+font-size: 12px;
+line-height: 240%;
+  border-radius: 4px;
+        width: 100px;
+        height: 30px;
+}
+
 .header-nav{
   margin-left: 500px;
 }
-
+    .footer-columns {
+        grid-template-columns: repeat(1, 1fr);
+    }
+.footer-columns{
+  grid-template-rows: 160px;
 }
-@media  (max-width:800px) {
-.strelka-home{
+.footer-applications{
   margin-left: 0;
 }
+.footer-aplik-wrap{
+  grid-template-columns:  1fr;
+}
+}
+@media (max-width: 800px) {
+  .footer-aplik-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 40px;
+  }
+  
+  .footer-columns {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .footer-applications {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 0;
+    margin-top: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .footer-social {
+    grid-column: 1;
+    grid-row: 3;
+    padding-left: 0;
+    margin-top: 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-social-title {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .social-wrap {
+    justify-content: center;
+  }
 }
 @media  (max-width:700px) {
 
@@ -932,7 +1167,10 @@ text-align: center;
 }
 @media  (max-width:500px) {
 
-
+.footer-input{
+  width: 137px;
+height: 27px;
+}
 
   .card:last-child .card-description {
     height: 63px;
@@ -972,7 +1210,9 @@ width: 170px;
 }
 
 @media  (max-width:400px) {
-
+.applications-link{
+  margin-right: 0;
+}
   .img-plo-3{
     width: 300px;
   }

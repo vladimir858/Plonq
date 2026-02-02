@@ -64,7 +64,7 @@ export default function Home() {
       <div className="detail-mob-text">Скоро в продаже</div>
 </div>
     </section>
-<section className="product">
+{/* <section className="product">
 <div className="product-items">
 
     <div className=" wrap-product ">
@@ -155,7 +155,7 @@ export default function Home() {
 
 
 </div>
-</section>
+</section> */}
 <div class="flex-container">
   <div class="card">
     <div class="card-content">

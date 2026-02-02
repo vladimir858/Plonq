@@ -20,7 +20,9 @@ export default function Footer() {
     </div>
   </div>
 
+<div className="footer-aplik-wrap">
 
+{/* второй элемент */}
 <div className="footer-applications">
 
   <div className="applications-wraper-1">
@@ -60,33 +62,65 @@ export default function Footer() {
 
 </div>
 
+{/* первый */}
 <div className="footer-columns">
-<div className=" footer-colums__wrap ">
-<div className=" text-normal  footer-colums__headtitle  ">Продукты</div>
-  <div className=" text-normal footer-colums__subtitle">Plonq 400</div>
-  <div className=" text-normal footer-colums__subtitle">Plonq 500</div>
-  <div className="text-normal footer-colums__subtitle">Plonq X</div>
+<ul className=" footer-colums__wrap ">
+  <li className=" text-normal  footer-colums__headtitle ">  
+<a  href='#'>Продукты</a>
+  </li>
+  <li className=" text-normal footer-colums__subtitle ">
+  <a  href='#'>Plonq 400</a>
+  </li>
+  <li  className=" text-normal footer-colums__subtitle   ">
+  <a href='#'>Plonq 500</a>
+  </li>
+  <li className="text-normal footer-colums__subtitle  ">
+  <a  href='#'>Plonq X</a>
+  </li>
+</ul>
+
+<ul className="  footer-colums-mr80">
+  <li className=" text-normal  footer-colums__headtitle">
+<a  href='#'>Технологии</a>
+  </li>
+  <li className="text-normal  footer-colums__subtitle">
+  <a  href='#'>О приложении</a>
+  </li>
+  <li className="text-normal  footer-colums__subtitle">
+  <a  href='#'>Об электронных сигаретах</a>
+  </li>
+</ul>
+<ul className=" footer-colums-mr121 ">
+  <li className= "font-normal footer-colums__headtitle">
+<a href='#'>Поддержка</a>
+  </li>
+  <li  className="text-normal footer-colums__subtitle">
+  <a href='#'>Связаться с нами</a>
+  </li>
+  <li  className="text-normal footer-colums__subtitle" >
+  <a href='#'>Условия возврата</a>
+  </li>
+  <li className="text-normal footer-colums__subtitle"> 
+  <a href='#'>Политика конфиденциальности</a>
+  </li>
+</ul>
+<ul className=" footer-colums-mr121">
+  <li className="text-normal   footer-colums__headtitle">
+<a  href='#'>Прочее</a>
+  </li>
+  <li className="text-normal footer-colums__subtitle">
+  <a  href='#'>Точки продаж</a>
+  </li>
+  <li className="text-normal footer-colums__subtitle">
+  <a  href='#'>О Компании</a>
+  </li>
+  <li  className="text-normal footer-colums__subtitle">
+  <a href='#'>Оптовым покупателям</a>
+  </li>
+</ul>
 </div>
 
-<div className="  footer-colums-mr80">
-<div className=" text-normal  footer-colums__headtitle">Технологии</div>
-  <div className="text-normal  footer-colums__subtitle">О приложении</div>
-  <div className="text-normal  footer-colums__subtitle">Об электронных сигаретах</div>
-</div>
-<div className=" footer-colums-mr121 ">
-<div className= "font-normal footer-colums__headtitle">Поддержка</div>
-  <div className="text-normal footer-colums__subtitle">Связаться с нами</div>
-  <div className="text-normal footer-colums__subtitle">Условия возврата</div>
-  <div className="text-normal footer-colums__subtitle">Политика конфиденциальности</div>
-</div>
-<div className=" footer-colums-mr121">
-<div className="text-normal   footer-colums__headtitle">Прочее</div>
-  <div className="text-normal footer-colums__subtitle">Точки продаж</div>
-  <div className="text-normal footer-colums__subtitle">О Компании</div>
-  <div className="text-normal footer-colums__subtitle">Оптовым покупателям</div>
-</div>
-</div>
-
+{/* третий */}
 <div className="footer-social">
    <div className="social-wrap">
     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +130,7 @@ export default function Footer() {
    <div className="footer-social-title">
     © 2026 PLONQ LLC 40900 Woodward Avenue Suite 111 Bloomfield Hills MI 48304 USA
    </div>
-</div>
+</div>  </div>
 
   <div className="text-normal  warning     ">
 ПРОДАЖА НЕСОВЕРШЕННОЛЕТНИМ ЗАПРЕЩЕНА. Сайт используется 
