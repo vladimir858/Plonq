@@ -6,7 +6,6 @@ export default function Footer() {
       <div className="container">
     <div className="footer-wrapping grid">
 
- 
   <a href="#" className=" footer-logo">
     <img src="/public/Plonq_logo.svg"   />
   </a>
@@ -24,7 +23,7 @@ export default function Footer() {
 
 <div className="footer-applications">
 
-  <div className="applications-wrap">
+  <div className="applications-wraper-1">
   <a className="applications-link  " href="#">
     <div className="applications-svg-wrap">
 <svg width="28" height="33" viewBox="0 0 28 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,26 +31,32 @@ export default function Footer() {
 <path d="M13.6707 8.24992C18.0397 8.24535 21.5805 4.86223 21.5852 0.687514C21.5852 0.307825 21.2631 0 20.8657 0C16.4966 0.00457613 12.9558 3.38769 12.9512 7.5624C12.9511 7.94209 13.2733 8.24992 13.6707 8.24992Z" fill="black"/>
 </svg>
     </div>
+    <div className="applications-wrap">
 <div className="applications-headtitle">Coming soon </div>
 <div className="applications-subtitle">for IOS</div>
+    </div>
   </a>
-
-
   </div>
   
-  <div className="applications-wrap">
+  <div className="applications-wraper">
   <a className="applications-link  " href="#">
     <div className="applications-svg-wrap">
 <svg width="24" height="33" viewBox="0 0 24 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.784077 32.8226C0.309137 32.6654 0 32.086 0 31.1894V1.59404C0 0.763653 0.261751 0.203618 0.676677 0L12.5127 16.4931L0.784077 32.8226ZM2.41334 32.1945L16.6602 22.2725L13.1902 17.4372L2.41334 32.1945ZM2.7101 0.796095L13.2108 15.5212L16.7584 10.582L2.7101 0.796095ZM17.7115 11.2459L23.2149 15.0795C24.2569 15.8054 24.2664 16.9754 23.2149 17.7077L17.5723 21.6373L13.8919 16.4763L17.7115 11.2459Z" fill="black"/>
 </svg>
     </div>
+    <div className="applications-wrap">
 <div className="applications-headtitle">Coming soon</div>
 <div className="applications-subtitle">for Android</div>
+    </div>
   </a>
 
 
   </div>
+
+
+
+
 
 </div>
 
@@ -101,95 +106,6 @@ export default function Footer() {
       </div>
          </div>
     </footer>
-{/* <footer className="    footer ">
-  <div className="container">
-  <a href="#" className=" ">
-    <img src="/public/Plonq_logo.svg"   />
-  </a>
-  <div className="wrap-footer ">
-  <div className=" ">
- <div className="title-footer ">
-    Подпишитесь на наши обновления
-  </div>
-  <div className="footer-flex-wrap ">
-   <input type="text" className='footer-input' /> 
-   <button className='footer-button-title'>Подписаться
-    
-   </button>
-  </div>
-  </div>
 
-   
-  </div>
-  
-
-  <div className="footer-wrap-text">
-    <div className="">
-          <a href="#" className='flex'>
- <img src="/public/Apple.svg"  className='img-apple' />
- 
-<div className="">
-<div className=" text-normal ">Coming soon </div>
-<div className=" text-normal subtitle-footer ">for IOS </div>
-</div>
-</a>
-        <a href="#" className='flex img-google-wrap  '>
- <img src="/public/Android.svg"  className=' img-google ' />
- 
-<div className="">
-<div className=" text-normal  ">Coming soon </div>
-<div className=" text-normal subtitle-footer">for
-   Android </div>
-   
-</div>
-</a>
-
-    </div>
-
-
-<div className=" footer-colums__wrap ">
-<div className=" text-normal  footer-colums__headtitle  ">Продукты</div>
-  <div className=" text-normal footer-colums__subtitle">Plonq 400</div>
-  <div className=" text-normal footer-colums__subtitle">Plonq 500</div>
-  <div className="text-normal footer-colums__subtitle">Plonq X</div>
-</div>
-<div className="  footer-colums-mr80">
-<div className=" text-normal  footer-colums__headtitle">Технологии</div>
-  <div className="text-normal  footer-colums__subtitle">О приложении</div>
-  <div className="text-normal  footer-colums__subtitle">Об электронных сигаретах</div>
-</div>
-<div className=" footer-colums-mr121 ">
-<div className= "font-normal footer-colums__headtitle">Поддержка</div>
-  <div className="text-normal footer-colums__subtitle">Связаться с нами</div>
-  <div className="text-normal footer-colums__subtitle">Условия возврата</div>
-  <div className="text-normal footer-colums__subtitle">Политика конфиденциальности</div>
-</div>
-<div className=" footer-colums-mr121">
-<div className="text-normal   footer-colums__headtitle">Прочее</div>
-  <div className="text-normal footer-colums__subtitle">Точки продаж</div>
-  <div className="text-normal footer-colums__subtitle">О Компании</div>
-  <div className="text-normal footer-colums__subtitle">Оптовым покупателям</div>
-</div>
-
-<div className="">
-<a href="#">
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" 
-  clip-rule="evenodd" 
-  d="M12.0012 0C8.74212 0 8.3331 0.0142504 7.05309 0.0724992C5.77558 0.131 4.90357 0.33325 4.14055 0.63C3.35129 0.9365 2.68178 1.3465 2.01477 2.01375C1.34727 2.68075 0.937262 3.35025 0.629757 4.13925C0.332255 4.90251 0.129751 5.77476 0.0722509 7.05176C0.0150002 8.33175 0 8.74101 0 12C0 15.259 0.0145001 15.6668 0.0725004 16.9467C0.131252 18.2243 0.333504 19.0963 0.630008 19.8593C0.936762 20.6485 1.34676 21.318 2.01403 21.985C2.68079 22.6525 3.35029 23.0636 4.13905 23.37C4.90256 23.6668 5.77482 23.869 7.05208 23.9275C8.33211 23.9857 8.74087 24 11.9996 24C15.2589 24 15.6667 23.9857 16.9468 23.9275C18.2242 23.869 19.0973 23.6668 19.8608 23.37C20.6498 23.0636 21.3183 22.6525 21.9851 21.985C22.6526 21.318 23.0625 20.6485 23.37 19.8595C23.6651 19.0963 23.8675 18.224 23.9275 16.947C23.985 15.667 24 15.259 24 12C24 8.74101 23.985 8.33201 23.9275 7.05201C23.8675 5.77451 23.6651 4.90251 23.37 4.1395C23.0625 3.35025 22.6526 2.68075 21.9851 2.01375C21.3175 1.34625 20.65 0.936251 19.86 0.63C19.095 0.33325 18.2225 0.131 16.945 0.0724992C15.665 0.0142504 15.2575 0 11.9974 0H12.0012ZM10.9246 2.1625C11.1336 2.16218 11.3584 2.16227 11.601 2.16238H11.6012L12.0012 2.1625C15.2052 2.1625 15.5849 2.174 16.8502 2.2315C18.0202 2.285 18.6552 2.48051 19.0782 2.64475C19.6382 2.86225 20.0376 3.12225 20.4573 3.54225C20.8773 3.96226 21.1373 4.36225 21.3552 4.92226C21.5195 5.34475 21.7153 5.97975 21.7685 7.14975C21.8261 8.41475 21.8385 8.79476 21.8385 11.9973C21.8385 15.1997 21.8261 15.5798 21.7685 16.8447C21.7151 18.0148 21.5195 18.6498 21.3552 19.0723C21.1378 19.6323 20.8773 20.031 20.4573 20.4507C20.0372 20.8707 19.6385 21.1307 19.0782 21.3483C18.6557 21.5133 18.0202 21.7083 16.8502 21.7618C15.5852 21.8193 15.2052 21.8317 12.0012 21.8317C8.79686 21.8317 8.41711 21.8193 7.15209 21.7618C5.98207 21.7078 5.34707 21.5123 4.92381 21.348C4.36381 21.1305 3.9638 20.8705 3.5438 20.4505C3.12379 20.0305 2.86379 19.6316 2.64578 19.0713C2.48154 18.6488 2.28578 18.0138 2.23252 16.8438C2.17502 15.5788 2.16353 15.1988 2.16353 11.9943C2.16353 8.78975 2.17502 8.41175 2.23252 7.14675C2.28603 5.97675 2.48154 5.34175 2.64578 4.91876C2.86329 4.35875 3.12379 3.95876 3.5438 3.53876C3.9638 3.11875 4.36381 2.85875 4.92381 2.64076C5.34681 2.47576 5.98207 2.28076 7.15209 2.227C8.2591 2.177 8.68811 2.162 10.9246 2.1595V2.1625ZM18.4067 4.155C17.6118 4.155 16.9667 4.79926 16.9667 5.59451C16.9667 6.38951 17.6118 7.0345 18.4067 7.0345C19.2018 7.0345 19.8468 6.38951 19.8468 5.59451C19.8468 4.79951 19.2018 4.1545 18.4067 4.1545V4.155ZM5.83857 12C5.83857 8.59684 8.59773 5.83764 12.001 5.8375C15.4042 5.8375 18.1628 8.59676 18.1628 12C18.1628 15.4033 15.4045 18.1613 12.0012 18.1613C8.59786 18.1613 5.83857 15.4033 5.83857 12ZM16.0012 12C16.0012 9.79076 14.2102 8.00001 12.0012 8.00001C9.79187 8.00001 8.0011 9.79076 8.0011 12C8.0011 14.209 9.79187 16 12.0012 16C14.2102 16 16.0012 14.209 16.0012 12Z" fill="black" />
-</svg>
-</a>
-
-<div className="">
-  <div className="  text-normal copyrait">© 2021 PLONQ LLC 40900
-   Woodward Avenue Suite 111 Bloomfield Hills MI 48304 USA</div>
-</div> </div>
-  </div>
-
-  <div className="text-normal  warning     ">
-ПРОДАЖА НЕСОВЕРШЕННОЛЕТНИМ ЗАПРЕЩЕНА. Сайт используется исключительно в целях информирования действующих потребителей продукции PLONQ Защищено выпущенными и/или находящимися на одобрении международными патентами..
-  </div>
-  </div>
-</footer> */}
   );
 }
