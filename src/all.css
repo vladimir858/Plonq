@@ -310,6 +310,10 @@ color: var(--color-gold);
     border-radius: 100px;
     color: var(--color-white);
      border-color: var(--color-white);
+     transition: .5s;
+}
+.link-buy:hover{
+transform: translateY(-3px);
 }
 
 .button-detail-mob{
@@ -397,7 +401,8 @@ display: flex;
     transition: .5s;
 }
 .product-link:hover{
-opacity: .7;
+opacity: .8;
+transform: translateY(-3px);
 }
 .contain-product{
     margin-right: 180px;

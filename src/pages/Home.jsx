@@ -42,7 +42,7 @@ export default function Home() {
     <section className=" main-detail  ">
       <div className="">
         <div className="wrap-main-logo">
-  <img src="../../public/Home-logo.svg" className='main-logo'  />
+  <img src="/Home-logo.svg" className='main-logo'  />
         </div>
 <div className="main-head ">Электронная сигарета, <br /> которая умеет удивлять.</div>
 <div className="  main-btn-wrap    ">
@@ -70,7 +70,7 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-1">
       <div className="img-plo-wrap">
-      <img src="/public/img-plo-1.png" className='img-plo'  />
+      <img src="/img-plo-1.png" className='img-plo'  />
       </div>
       <div className=" contain-product">
         <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
@@ -90,7 +90,7 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-2">
       <div className="img-plo-wrap-2">
-      <img src="/public/img-plo-2.png" className='img-plo-2'  />
+      <img src="/img-plo-2.png" className='img-plo-2'  />
       </div>
       <div className=" contain-product">
         <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
@@ -115,7 +115,7 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-3">
       <div className="img-plo-wrap-3">
-      <img src="/public/img-plo-3.png" className='img-plo-3'  />
+      <img src="/img-plo-3.png" className='img-plo-3'  />
       </div>
       <div className=" contain-product">
         <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
@@ -136,7 +136,7 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-4">
       <div className="img-plo-wrap-4">
-      <img src="/public/img-plo-4.png" className='img-plo'  />
+      <img src="/img-plo-4.png" className='img-plo'  />
       </div>
       <div className=" contain-product">
         <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
@@ -168,7 +168,7 @@ export default function Home() {
         </div>
         <ButtonDetail />
       </div>
-      <img src="../../public/leak-1.png" class="card-image" />
+      <img src="/leak-1.png" class="card-image" />
     </div>
   </div>
 
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
         <ButtonDetail />
       </div>
-      <img src="../../public/leak-2.png" class="card-image-t" />
+      <img src="/leak-2.png" class="card-image-t" />
     </div>
   </div>
 </div>

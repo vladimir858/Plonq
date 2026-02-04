@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="footer-wrapping grid">
 
   <a href="#" className=" footer-logo">
-    <img src="/public/Plonq_logo.svg"   />
+    <img src="/Plonq_logo.svg"   />
   </a>
 
   <div className="input-wrap">
