@@ -22,7 +22,7 @@ export default function Footer() {
 
 <div className="footer-aplik-wrap">
 
-{/* второй элемент */}
+
 <div className="footer-applications">
 
   <div className="applications-wraper-1">
@@ -62,7 +62,7 @@ export default function Footer() {
 
 </div>
 
-{/* первый */}
+
 <div className="footer-columns">
 <ul className=" footer-colums__wrap ">
   <li className=" text-normal  footer-colums__headtitle ">  
@@ -91,7 +91,7 @@ export default function Footer() {
   </li>
 </ul>
 <ul className=" footer-colums-mr121 ">
-  <li className= "font-normal footer-colums__headtitle">
+  <li className= "text-normal  footer-colums__headtitle">
 <a href='#'>Поддержка</a>
   </li>
   <li  className="text-normal footer-colums__subtitle">
@@ -120,7 +120,7 @@ export default function Footer() {
 </ul>
 </div>
 
-{/* третий */}
+
 <div className="footer-social">
    <div className="social-wrap">
     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">

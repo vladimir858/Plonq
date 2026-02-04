@@ -56,9 +56,7 @@ margin-top: 50px;
 padding-right: 50px;
 }
 
-.header-nav-burger{
 
-}
   .header-item-burger{
     display: flex;
     flex-direction: column;
@@ -214,10 +212,7 @@ margin-right: 20px;
   display: flex;
   justify-content: center;
 }
-.footer-colums__wrap{
-    /* margin-left: 121px;
-    margin-right: 121px; */
-}
+
 .social-wrap{
   display: flex;
   justify-content: end;
@@ -251,6 +246,16 @@ margin-bottom: 23px;
   line-height: 162%;
     margin-bottom: 17px;
 color: var(--grey-196);
+ transition: transform 0.5s ease, color 0.3s ease;
+}
+.footer-colums__subtitle:hover{
+ transform: translateY(-3px);
+  color: var(--color-dark);
+
+}
+.footer-colums__subtitle:active{
+ transform: translateY(-3px);
+  color: var(--color-dark);
 }
 
 
@@ -590,11 +595,7 @@ width: 11px;}
       display: grid;
     justify-content: center;
 }
-.footer-applications{
 
-  /* margin-right: 210px; */
-
-}
 
 .input-button{
   border-radius: 4px;
@@ -602,15 +603,25 @@ width: 152px;
 height: 40px;
 background: var(--color-dark);
 color: var(--color-white);
+transition: .5s;
 }
+
+.input-button:hover{
+   transform: translateY(-3px);
+  color: var(--color-gold);
+}
+
+.footer-input{
+  padding-left: 15px;
+  font-size: 14px;
+}
+
 .input-title{
   position: relative;
   bottom: 20px;
   font-weight: 400;
 }
-.footer__input-wrap{
-  
-}
+
 .applications-subtitle{
 white-space: nowrap;
   margin-top: 5px;
@@ -650,7 +661,7 @@ display: flex;
 
 .footer-aplik-wrap {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* 2 колонки */
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 100px;  
 }
 
@@ -810,27 +821,21 @@ grid-template-columns: 80px 125px 160px 170px;
 }
 
 
-.footer-columns > *:first-child {
 
-}
-
-.footer-columns > *:nth-child(2) {
- 
-}
 
 
 .footer-applications {
   grid-column: 1; 
   grid-row: 2; 
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 колонки для приложений */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px;
 }
 
-/* ===== ПРАВЫЙ НИЖНИЙ БЛОК ===== */
+
 .footer-social {
-  grid-column: 2; /* Вторая колонка основной сетки */
-  grid-row: 2; /* Вторая строка основной сетки */
+  grid-column: 2; 
+  grid-row: 2; 
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -1230,8 +1235,6 @@ width: 170px;
 
 
 
-
-/* Анимация для меню */
 
 
 

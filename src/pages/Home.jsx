@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import ButtonDetail from '../components/button-detail'; 
-import Footer from '../components/Footer';
+
 export default function Home() {
   return (
     <div className="">
@@ -188,7 +188,7 @@ export default function Home() {
   </div>
 </div>
 
-    <Footer />  
+
     </div>
   
   );
