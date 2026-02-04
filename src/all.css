@@ -641,6 +641,13 @@ display: flex;
 }
 @media  (max-width:1300px) {
 
+.contain-product-4{
+
+  margin-left: 0px;
+ 
+}
+
+
 .footer-aplik-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2 колонки */
@@ -952,18 +959,14 @@ line-height: 240%;
 .header-nav{
   margin-left: 500px;
 }
-    .footer-columns {
-        grid-template-columns: repeat(1, 1fr);
-    }
+
 .footer-columns{
   grid-template-rows: 160px;
 }
 .footer-applications{
   margin-left: 0;
 }
-.footer-aplik-wrap{
-  grid-template-columns:  1fr;
-}
+
 }
 @media (max-width: 800px) {
   .footer-aplik-wrap {
