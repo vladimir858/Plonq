@@ -1,6 +1,58 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Footer() {
+  const [email, setEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [message, setMessage] = useState('');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!email || !email.includes('@')) {
+      setMessage('❌ Введите корректный email');
+      return;
+    }
+
+    setIsSubmitting(true);
+    setMessage('');
+
+    try {
+    
+      const formData = new URLSearchParams();
+      formData.append('entry.504521669', email); 
+      formData.append('fvv', '1');
+      formData.append('partialResponse', '[null,null,"-3538580312611683354"]');
+      formData.append('pageHistory', '0');
+      formData.append('fbzx', '-3538580312611683354');
+
+   
+      await fetch(
+        'https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPJzHUFbpG4cB2spVRURCbPgi2r4j6X3nq6NIVJGt35WIjQQ/formResponse',
+        {
+          method: 'POST',
+          mode: 'no-cors', 
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: formData.toString(),
+        }
+      );
+
+   
+      setMessage('✅ Спасибо за подписку!');
+      setEmail('');
+      
+     
+      console.log('Email отправлен в Google Forms:', email);
+      
+    } catch (error) {
+      setMessage('❌ Ошибка отправки');
+      console.error('Ошибка:', error);
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setMessage(''), 5000);
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="container">
@@ -10,19 +62,48 @@ export default function Footer() {
     <img src="/Plonq_logo.svg"   />
   </a>
 
-  <div className="input-wrap">
-    <div className="input-title">Подпишитесь на наши обновления</div>
-    <div className="footer__input-wrap">
-    <input type="text" className="footer-input" />
-<button className="input-button">
-  Подписаться
-</button>
-    </div>
-  </div>
+ <div className="input-wrap">
+            <div className="input-title">Подпишитесь на наши обновления</div>
+            <form onSubmit={handleSubmit}>
+              <div className="footer__input-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  className="footer-input"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Ваш email"
+                  required
+                  disabled={isSubmitting}
+                />
+                <button
+                  className="input-button"
+                  type="submit"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Отправка...' : 'Подписаться'}
+                </button>
+              </div>
+            </form>
+            
+           
+            {message && (
+              <div style={{
+                marginTop: '10px',
+                padding: '8px',
+                borderRadius: '4px',
+                fontSize: '14px',
+                textAlign: 'center',
+                backgroundColor: message.includes('✅') ? '#d4edda' : '#f8d7da',
+                color: message.includes('✅') ? '#155724' : '#721c24',
+                border: `1px solid ${message.includes('✅') ? '#c3e6cb' : '#f5c6cb'}`,
+              }}>
+                {message}
+              </div>
+            )}
+          </div>
 
 <div className="footer-aplik-wrap">
-
-
 <div className="footer-applications">
 
   <div className="applications-wraper-1">

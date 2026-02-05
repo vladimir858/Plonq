@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // если используете React Router
-
+import { Link } from 'react-router-dom'; 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    // Блокируем прокрутку body при открытом меню
+
     if (isMenuOpen) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'auto';
     }
-
-    // Очистка при размонтировании компонента
     return () => {
       document.body.style.overflow = 'auto';
     };
-  }, [isMenuOpen]); // Эффект срабатывает при изменении isMenuOpen
+  }, [isMenuOpen]); 
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -30,13 +27,14 @@ export default function Header() {
     <header className="header">
       <div className="header-wrap ">
         <div className="wrap">
-          <a className="logo" href='#'>
+               <Link to="/" className="logo">
             <img src="/Logo.svg" alt="Логотип" />
-          </a>
+               </Link>
+     
           <nav className="header-nav">
-            <Link to="/" className="header-nav__link">
-              Продукты
-            </Link>
+      <Link to="/Product" className="header-nav__link"> 
+          Продукты
+        </Link>
             <Link to="/about" className="header-nav__link">
               Приложение
             </Link>
@@ -47,7 +45,7 @@ export default function Header() {
               Где купить
             </Link>
             
-            {/* Кнопка бургер-меню */}
+         
             <button 
               className={`burger ${isMenuOpen ? 'burger--active' : ''}`} 
               aria-label={isMenuOpen ? "Закрыть меню" : "Открыть меню"}
