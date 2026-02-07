@@ -189,8 +189,51 @@ color: #c8bb93;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+.map-link{
+display: flex;
+    width: 208px;
+    height: 48px;
+    font-weight: 500;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 2px var(--color-dark) solid;
+    transition: .5s;
+}
+.map-link-wrap{
+  display: flex;
+  justify-content: center;
+}
+.map-link:hover {
+    opacity: .8;
+    transform: translateY(-3px);
+}
 
+.map-btn{
+font-weight: 600;
+font-size: 15px;
+line-height: 185%;
+text-align: center;
+color: var(--color-dark);
+}
+.map-wrap-title{
+  margin-bottom: 36px;
+font-weight: 400;
+font-size: 22px;
+line-height: 145%;
+text-align: center;
 
+}
+.map{
+  margin-top: 260px;
+}
+.map-sct-title{
+  height: 232px;
+  padding-top: 36px;
+  padding-bottom: 48px;
+  background: var(--grey-249);
+  width: 100%;
+}
 
 .img-apple{
 margin-right: 20px;
@@ -460,7 +503,7 @@ transform: translateY(-3px);
 .flex-container {
   display: flex;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 32px;
 }
 
 .card {

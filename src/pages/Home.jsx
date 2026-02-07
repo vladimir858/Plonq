@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ButtonDetail from '../components/button-detail'; 
+import SimpleMap from '../components/SimpleMap'; 
 
 export default function Home() {
   return (
@@ -154,7 +155,24 @@ export default function Home() {
 
 
 
+
 </div>
+</section>
+<section className="map">
+  
+<SimpleMap/>
+<div className="container">
+<div className="map-sct-title">
+  <div className="map-wrap-title">
+    Найдите Plonq среди 4244 магазинов</div>
+<div className="map-link-wrap">
+    <a href="#" className="map-link">
+      <div className="map-btn">Найти магазин</div>
+    </a>
+</div>
+</div>
+</div>
+
 </section>
 <div class="flex-container">
   <div class="card">
