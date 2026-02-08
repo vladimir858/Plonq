@@ -158,9 +158,10 @@ export default function Home() {
 
 </div>
 </section>
-<section className="map">
-  
+<section className="map-section">
+  <div className="container">
 <SimpleMap/>
+  </div>
 <div className="container">
 <div className="map-sct-title">
   <div className="map-wrap-title">
