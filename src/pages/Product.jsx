@@ -51,6 +51,55 @@ export default function Product() {
   </div>
   </div>
  </main>
+ <section className="structure">
+  <div className="container">
+    <div className="structure-headtitle">
+      Состав жидкости</div>
+      <div className="structure-item"> 
+         <div className="structure-item-wrap">
+          <div className="structure-item-headtitle">Пропиленгликоль и глицерин (50/50)</div>
+          <div className="structure-item-title">Пропиленгликоль и глицерин — химически 
+            чистые жидкости, используемые для создания видимого пара. 
+            Кроме электронных сигарет их 
+            применяют в медицине, косметологии и пищевой промышленности. </div>
+         </div>
+         <div className="structure-item-wrap">
+          <div className="structure-item-headtitle">Солевой никотин</div>
+          <div className="structure-item-title"> Солевой никотин - стимулятор, получаемый из табачного листа и обработаный различными кислотами. 
+             </div>
+          <div className="structure-item-title"> В жидкостях Plonq используется новое поколение солевого никотина Q-salt c более высокой скоростью усваиваемости.</div>
+         </div>
+         <div className="structure-item-wrap"> 
+          <div className="structure-item-headtitle">Ароматизаторы</div>
+          <div className="structure-item-title"> В состав ароматизаторов Plonq входят как природные, так и искусственные 
+            компоненты, придающие продукту неповторимый вкус.</div>
+         </div>
+         <div className="structure-item-wrap">
+          <div className="structure-item-headtitle">Бензоиная кислота</div>
+          <div className="structure-item-title"> Входит в состав солевого никотина. Делает пар мягче
+             и помогает быстрее насыщать организм никотином.</div>
+         </div>
+      </div>
+  </div>
+ </section>
+<div className="container">
+ <section className="certificate">
+<div className="certificate-headtitle">Сертификаты 
+  качества
+</div>
+<div className="certificate-wrap">
+  <div className="certificate-item">
+    <img src="cert1.png"  className="certificate-img" />
+  </div>
+  <div className="certificate-item">
+    <img src="cert2.png"className="certificate-img" />
+  </div>
+  <div className="certificate-item">
+    <img src="cert3.png"  className="certificate-img" />
+  </div>
+</div>
+ </section>
+</div>
   </div>
   );
 }
