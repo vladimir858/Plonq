@@ -2,7 +2,7 @@ export default function Product() {
   return (
   <div className='wrapper'>
 <div className="container">
-    <main className='main'>
+    <main className='main-product'>
 <div className="main-wrap-title">
     <div className="main-headtitle">Устройство Plonq X</div>
         <div className="main-title">Устройство Plonq X — это электронный испаритель, который преобразует жидкость в пар.</div>
@@ -34,7 +34,7 @@ export default function Product() {
       
  </main>
 </div>
- <main className="main-gray">
+ {/* <main className="main-gray">
   <div className="container">
 <div className="main-gray-wrap">
 
@@ -50,8 +50,8 @@ export default function Product() {
         </div> 
   </div>
   </div>
- </main>
- <section className="structure">
+ </main> */}
+ {/* <section className="structure">
   <div className="container">
     <div className="structure-headtitle">
       Состав жидкости</div>
@@ -81,8 +81,8 @@ export default function Product() {
          </div>
       </div>
   </div>
- </section>
-<div className="container">
+ </section> */}
+{/* <div className="container">
  <section className="certificate">
 <div className="certificate-headtitle">Сертификаты 
   качества
@@ -99,7 +99,7 @@ export default function Product() {
   </div>
 </div>
  </section>
-</div>
+</div> */}
   </div>
   );
 }
