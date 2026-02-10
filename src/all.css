@@ -894,9 +894,6 @@ padding-right: 450px;
 
 
 
-
-
-
   .footer-social{
     padding-left: 30px;
   }
@@ -984,8 +981,6 @@ grid-template-columns: 80px 125px 160px 170px;
     .logo {
       margin-right: 0;
     }
- 
-
 }
 @media  (max-width:971px) {
 
