@@ -31,7 +31,7 @@ export default function Product() {
           что приблизительно равно 1,5-2 пачек сигарет.
             </div>
 </div>
-      
+      <div className=""></div>
  </main>
 </div>
  <main className="main-gray">
