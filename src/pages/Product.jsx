@@ -16,12 +16,12 @@ export default function Product() {
 </div>
 
         <div className="main-wrap-img">
-<img src="plonqX-two.png" />
+<img src="plonqX-two.png" className="plonqX-two" />
         </div>
     </main>
  <main className='main-two'>
     <div className="main-wrap-img-two">
-<img src="capsule.png" />
+<img src="capsule.png" className="capsule-png" />
         </div>
   <div className="main-wrap-title">
     <div className="main-headtitle">Капсула Plonq POD </div>
@@ -45,7 +45,7 @@ export default function Product() {
             </div>
 </div>
         <div className="main-wrap-img-tree">
-<img src="vape-plonq.png" />
+<img src="vape-plonq.png" className="vape-plonq" />
         </div> 
   </div>
   </div>
@@ -64,9 +64,9 @@ export default function Product() {
          </div>
          <div className="structure-item-wrap">
           <div className="structure-item-headtitle">Солевой никотин</div>
-          <div className="structure-item-title"> Солевой никотин - стимулятор, получаемый из табачного листа и обработаный различными кислотами. 
+          <div className="structure-item-title" id="title-mb"> Солевой никотин - стимулятор, получаемый из табачного листа и обработаный различными кислотами. 
              </div>
-          <div className="structure-item-title"> В жидкостях Plonq используется новое поколение солевого никотина Q-salt c более высокой скоростью усваиваемости.</div>
+          <div className="structure-item-title" > В жидкостях Plonq используется новое поколение солевого никотина Q-salt c более высокой скоростью усваиваемости.</div>
          </div>
          <div className="structure-item-wrap"> 
           <div className="structure-item-headtitle">Ароматизаторы</div>

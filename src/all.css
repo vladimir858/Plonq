@@ -792,9 +792,8 @@ line-height: 140%;
 .certificate{
   margin-top: 265px;
  padding-top: 74px;
-  height: 688px;
   width: 100%;
-  background: var(--grey-249);
+
 }
 .certificate-headtitle{
   margin-bottom: 65px;
@@ -842,6 +841,28 @@ padding-right: 450px;
 
 }
 @media  (max-width:1300px) {
+
+
+.certificate-img{
+  width: 212px;
+height: 301px;
+}
+
+.main-wrap-img-tree {
+    padding-left: 260px;
+}
+.certificate-headtitle{
+  font-size: 23px;
+}
+
+  .certificate-wrap{
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
 
 .contain-product-4{
 
@@ -961,8 +982,20 @@ grid-template-columns: 80px 125px 160px 170px;
 }
 
 @media  (max-width:1020px) {
+.main-headtitle{
+  font-size: 23px;
+line-height: 143%;
+}
 
+.main-title{
 
+font-size: 15px;
+line-height: 140%;
+}
+.main-subtitle{
+font-size: 15px;
+line-height: 140%;
+}
 .header-nav__link{
     display: none;
 }
@@ -983,6 +1016,40 @@ grid-template-columns: 80px 125px 160px 170px;
     }
 }
 @media  (max-width:971px) {
+
+.plonqX-two{
+  width: 178px;
+height: 376px;
+}
+
+.vape-plonq{
+  width: 348px;
+height: 347px;
+}
+
+    .structure-headtitle{
+    font-size: 23px;
+  }
+
+  .structure-item {
+   
+    flex-direction: column;
+}
+
+
+.structure-item-headtitle{
+font-size: 15px;
+line-height: 140%;
+margin-bottom: 25px;
+}
+.structure-item-title{
+  margin-bottom: 60px;
+font-size: 15px;
+}
+
+#title-mb{
+  margin-bottom: 0;
+}
 
 .main-product{
   flex-direction: column;
@@ -1179,6 +1246,19 @@ line-height: 240%;
 
 }
 @media (max-width: 800px) {
+
+.main-gray-wrap {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-wrap-img-tree {
+  margin-top: 40px;
+        padding-left: 0px;
+    }
+
   .footer-aplik-wrap {
     display: grid;
     grid-template-columns: 1fr;
@@ -1418,12 +1498,25 @@ width: 170px;
      }
 }
 @media  (max-width:450px) {
+
+.capsule-png{
+  width: 136px;
+height: 239px;
+}
+
+
       .header-nav {
         margin-left: 150px;
     }
 }
 
 @media  (max-width:400px) {
+    .vape-plonq {
+width: 285px;
+height: 285px;
+    }
+
+
 .applications-link{
   margin-right: 0;
 }
