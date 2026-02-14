@@ -1462,6 +1462,7 @@ text-align: center;
 @media  (max-width:500px) {
 
 .footer-input{
+  font-size: 11px;
   width: 137px;
 height: 27px;
 }
