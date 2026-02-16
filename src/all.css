@@ -1092,8 +1092,6 @@ padding-right: 0;
 
 
 
-
-
 .footer-applications {
   grid-column: 1; 
   grid-row: 2; 
@@ -1111,9 +1109,6 @@ padding-right: 0;
   align-items: flex-end;
   justify-content: flex-start;
 }
-
-
-
 
 
 
@@ -1136,7 +1131,6 @@ padding-right: 0;
 }
 
 
-
 .home__buttom-link{
     color:  #264f53;
     margin-right: 29px;
@@ -1145,7 +1139,6 @@ padding-right: 0;
     transition: .5s;
     align-items: center;
 }
-
 
 .link-buy{
 width: 144px;
@@ -1241,9 +1234,6 @@ line-height: 240%;
 .footer-applications{
   margin-left: 0;
 }
-
-
-
 }
 @media (max-width: 800px) {
 
