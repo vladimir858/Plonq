@@ -158,7 +158,7 @@ export default function Home() {
 
 </div>
 </section>
-<section className="map-section">
+<section className="map-section" id='Buy'>
   <div className="container">
 <SimpleMap/>
   </div>

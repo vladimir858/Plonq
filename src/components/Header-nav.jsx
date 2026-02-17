@@ -41,7 +41,7 @@ export default function Header() {
             <Link to="/projects" className="header-nav__link">
               Дистрибуция
             </Link>
-            <Link to="/contact" className="header-nav__link">
+            <Link to="/#Buy" className="header-nav__link">
               Где купить
             </Link>
             
@@ -79,11 +79,11 @@ export default function Header() {
                 Дистрибуция
               </Link>
             </li>
-            <li>
-              <Link to="/contact" className="header-list-burger" onClick={closeMenu}>
-                Где купить
-              </Link>
-            </li>
+          <li>
+  <Link to="/#Buy" className="header-list-burger" onClick={closeMenu}>
+    Где купить
+  </Link>
+</li>
           </ul>
         </nav>
       </div>
