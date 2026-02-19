@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Header from './components/Header-nav';
 import Footer from './components/Footer';
 import Product from './pages/Product';
+import Application from './pages/application';
+
 
 
 function ScrollToAnchor() {
@@ -33,6 +35,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Product" element={<Product />} />
+            {/* <Route path="/application" element={<Application />} /> */}
           </Routes>
         </main>
         <Footer />

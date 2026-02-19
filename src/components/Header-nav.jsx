@@ -35,7 +35,7 @@ export default function Header() {
       <Link to="/Product" className="header-nav__link"> 
           Продукты
         </Link>
-            <Link to="/about" className="header-nav__link">
+            <Link to="/Application" className="header-nav__link">
               Приложение
             </Link>
             <Link to="/projects" className="header-nav__link">
