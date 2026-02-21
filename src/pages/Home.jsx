@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import ButtonDetail from '../components/button-detail'; 
 import SimpleMap from '../components/SimpleMap'; 
+import React from 'react';
 
 export default function Home() {
   return (
@@ -32,9 +33,9 @@ export default function Home() {
 </svg>
       </a>
       </button>
-    <button className=" "><a href="#" className="  link-buy   " >
-Где купить
-      </a></button>
+    <button className=" "><Link to="/#Buy" className="link-buy">
+              Где купить
+            </Link></button>
     </div>
 
   </div>
@@ -80,9 +81,10 @@ export default function Home() {
         </div>
         <div className=" product-cost">370 ₽</div>
 
-      <a href='#' className="product-link  ">
-    Где купить
-</a>
+<Link to="/#Buy" className="product-link">
+              Где купить
+            </Link>
+
       </div>
     </div>
 
@@ -99,9 +101,9 @@ export default function Home() {
           Одноразовое устройство  Plonq на 400 затяжек
         </div>
         <div className=" product-cost">430 ₽</div>
-      <a href='#' className="product-link  ">
-    Где купить
-</a>
+<Link to="/#Buy" className="product-link">
+              Где купить
+            </Link>
       </div>
     </div>
 
@@ -125,9 +127,9 @@ export default function Home() {
         </div>
         <div className=" product-cost">370 ₽</div>
         <button className="product-button">
-      <a href='#' className="product-link  ">
-    Где купить
-</a>
+<Link to="/#Buy" className="product-link">
+              Где купить
+            </Link>
         </button>
       </div>
     </div>
@@ -145,9 +147,9 @@ export default function Home() {
          Два сменных картриджа для устройства Plonq X
         </div>
         <div className=" product-cost">770 ₽</div>
-      <a href='#' className="product-link  ">
-    Где купить
-</a>
+<Link to="/#Buy" className="product-link">
+              Где купить
+            </Link>
       </div>
     </div>
 
@@ -168,7 +170,7 @@ export default function Home() {
     Найдите Plonq среди 4244 магазинов</div>
 <div className="map-link-wrap">
     <a href="#" className="map-link">
-      <div className="map-btn">Найти магазин</div>
+   Найти магазин
     </a>
 </div>
 </div>
