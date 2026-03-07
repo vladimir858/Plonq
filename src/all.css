@@ -588,7 +588,7 @@ background: var(--color-dark);
   min-height: 100vh;
   padding-top: 100px;
   background-color: #f5f5f5; 
-  background-image: url('/500.png');
+  background-image: url('../src/assets/500.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1153,7 +1153,7 @@ height: 38px;
     min-height: 100vh;
   padding-top: 100px;
   background-color: #f5f5f5; 
-  background-image: url('../public/500m.png');
+  background-image: url('../src/assets/500m.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1516,7 +1516,7 @@ height: 285px;
     width: 300px;
   }
   .header-home{
-    background-image: url(/public/500mb.png);
+    background-image: url(../src/assets/500mb.png);
   }
 .header-nav{
   margin-left: 100px;

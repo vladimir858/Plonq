@@ -28,7 +28,7 @@ export default function Header() {
       <div className="header-wrap ">
         <div className="wrap">
                <Link to="/" className="logo">
-            <img src="/Logo.svg" alt="Логотип" />
+            <img src="../src/assets/Logo.svg" alt="Логотип" />
                </Link>
      
           <nav className="header-nav">

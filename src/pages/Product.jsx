@@ -16,12 +16,12 @@ export default function Product() {
 </div>
 
         <div className="main-wrap-img">
-<img src="plonqX-two.png" className="plonqX-two" />
+<img src="../src/assets/plonqX-two.png" className="plonqX-two" />
         </div>
     </main>
  <main className='main-two'>
     <div className="main-wrap-img-two">
-<img src="capsule.png" className="capsule-png" />
+<img src="../src/assets/capsule.png" className="capsule-png" />
         </div>
   <div className="main-wrap-title">
     <div className="main-headtitle">Капсула Plonq POD </div>
@@ -45,7 +45,7 @@ export default function Product() {
             </div>
 </div>
         <div className="main-wrap-img-tree">
-<img src="vape-plonq.png" className="vape-plonq" />
+<img src="../src/assets/vape-plonq.png" className="vape-plonq" />
         </div> 
   </div>
   </div>
@@ -88,13 +88,13 @@ export default function Product() {
 </div>
 <div className="certificate-wrap">
   <div className="certificate-item">
-    <img src="cert1.png"  className="certificate-img" />
+    <img src="../src/assets/cert1.png"  className="certificate-img" />
   </div>
   <div className="certificate-item">
-    <img src="cert2.png"className="certificate-img" />
+    <img src="../src/assets/cert2.png"className="certificate-img" />
   </div>
   <div className="certificate-item">
-    <img src="cert3.png"  className="certificate-img" />
+    <img src="../src/assets/cert3.png"  className="certificate-img" />
   </div>
 </div>
  </section>

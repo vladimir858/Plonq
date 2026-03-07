@@ -24,7 +24,7 @@ export default function Home() {
   Новый стандарт <br /> одноразовых е-сигарет</div>
 </div>
 
-    <div className=" home__buttom-wrap">
+    <div className="home__buttom-wrap">
     <button className="   home__buttom ">
       <a href="#" className="  home__buttom-link    " > 
 Подробнее
@@ -44,7 +44,7 @@ export default function Home() {
     <section className=" main-detail  ">
       <div className="">
         <div className="wrap-main-logo">
-  <img src="/Home-logo.svg" className='main-logo'  />
+  <img src="../src/assets/Home-logo.svg" className='main-logo'  /> 
         </div>
 <div className="main-head ">Электронная сигарета, <br /> которая умеет удивлять.</div>
 <div className="  main-btn-wrap    ">
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
     
       <div className=" main-img-wrap">
-<img src="/Phone-home.png" className='   main-img '/>
+<img src="../src/assets/Phone-home.png" className='   main-img '/>
       </div>
 
 <div className=" button-detail-mob ">
@@ -72,10 +72,10 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-1">
       <div className="img-plo-wrap">
-      <img src="/img-plo-1.png" className='img-plo'  />
+      <img src="../src/assets/img-plo-1.png" className='img-plo'  />
       </div>
       <div className=" contain-product">
-        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <img src="../src/assets/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
         <div className="  product-title-1  ">
           Одноразовое устройство  Plonq на 400 затяжек
         </div>
@@ -93,10 +93,10 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-2">
       <div className="img-plo-wrap-2">
-      <img src="/img-plo-2.png" className='img-plo-2'  />
+      <img src="../src/assets/img-plo-2.png" className='img-plo-2'  />
       </div>
       <div className=" contain-product">
-        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <img src="../assets/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
         <div className="  product-title-2  ">
           Одноразовое устройство  Plonq на 400 затяжек
         </div>
@@ -118,10 +118,10 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-3">
       <div className="img-plo-wrap-3">
-      <img src="/img-plo-3.png" className='img-plo-3'  />
+      <img src="../src/assets/img-plo-3.png" className='img-plo-3'  />
       </div>
       <div className=" contain-product">
-        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <img src="../assets/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
         <div className="  product-title  ">
           Стартовый набор <br />Plonq X
         </div>
@@ -139,10 +139,10 @@ export default function Home() {
     <div className=" wrap-product ">
     <div className=" contain-product-4">
       <div className="img-plo-wrap-4">
-      <img src="/img-plo-4.png" className='img-plo'  />
+      <img src="../src/assets/img-plo-4.png" className='img-plo'  />
       </div>
       <div className=" contain-product">
-        <img src="/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
+        <img src="../src/assets/logo_Plonq_400.svg" alt=""  className=" logo-400"/>
         <div className="  product-title-4  ">
          Два сменных картриджа для устройства Plonq X
         </div>
@@ -189,7 +189,7 @@ export default function Home() {
         </div>
         <ButtonDetail />
       </div>
-      <img src="/leak-1.png" class="card-image" />
+      <img src="../src/assets/leak-1.png" class="card-image" />
     </div>
   </div>
 
@@ -204,7 +204,7 @@ export default function Home() {
         </div>
         <ButtonDetail />
       </div>
-      <img src="/leak-2.png" class="card-image-t" />
+      <img src="../src/assets/leak-2.png" class="card-image-t" />
     </div>
   </div>
 </div>
